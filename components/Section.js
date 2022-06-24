@@ -13,7 +13,7 @@ function section() {
                    <div className="row-1">
 
 <div className="content">
-    <a href="infrastructure-management.php" className="service-block text-center">
+    <a href="#" className="service-block text-center">
         <img src="assets/images/services/service-icon-1.png" alt="Logo and branding"/>
         <h4>Cloud Infrastructure Management</h4>
         <p>Whilst the whole world looks moving towards Cloud based solution, DigitalQ pioneers in
