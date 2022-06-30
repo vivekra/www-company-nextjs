@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function Footer() {
   return (
     <footer className="page-footer dark-footer-bg">
@@ -8,29 +8,29 @@ function Footer() {
             <div className="col-lg-4">
                 <div className="footer-widget widget-about">
                 
-                 <a href="index.php"><img className="footer-logo" src="assets/images/dq-logo-bottom.svg" alt="footer logo"
-                        height="16"/></a>
+                 <a href="/index"><Image className="footer-logo" src="/assets/images/dq-logo-bottom.svg" alt="footer logo"
+                   width={213} height={120}/></a>
                 <p>Thanks for visiting us. our services will promote your brand, business and our products, tools will enchance your 
                     growth in your business domain.</p>
                    
                     <ul className="social-icons">
                         <li>
-                            <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
+                            <a href="http://www.facebook.com/dqindia" target="_blank"  rel="noopener noreferrer">
                                 <i className="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
+                            <a href="http://twitter.com/dqindia" target="_blank"  rel="noopener noreferrer">
                                 <i className="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener">
+                            <a href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank"  rel="noopener noreferrer">
                                 <i className="fab fa-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/dq.india" target="_blank" rel="noopener">
+                            <a href="https://www.instagram.com/dq.india" target="_blank"  rel="noopener noreferrer">
                                 <i className="fab fa-instagram"></i>
                             </a>
                         </li>
@@ -45,12 +45,12 @@ function Footer() {
                 <div className="footer-widget">
                     <h5 className="footer-nav-title">Services</h5>
                     <ul className="footer-nav dynamic-nav">
-                        <li><a href="cloud-services.php">Cloud Services</a></li>
-                        <li><a href="infrastructure-management.php">Infrastructure Management</a></li>
-                        <li><a href="application-management.php">Application Management</a></li>
+                        <li><a href="/Service/Cloudservices">Cloud Services</a></li>
+                        <li><a href="/Service/Infrastructure">Infrastructure Management</a></li>
+                        <li><a href="/Service/Application">Application Management</a></li>
                         
-                        <li><a href="security-audit.php">Security Audit</a></li>
-                        <li><a href="internet-marketing.php">Social Media Marketing</a></li>
+                        <li><a href="//Service/Security">Security Audit</a></li>
+                        <li><a href="/Service/Socialmedia">Social Media Marketing</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,11 +59,11 @@ function Footer() {
                 <div className="footer-widget">
                     <h5 className="footer-nav-title">Support</h5>
                     <ul className="footer-nav dynamic-nav">
-                         <li><a href="/about">About us</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="privacy.php">Privacy Policy</a></li>
-                        <li><a href="terms.php">Terms &amp; Conditions</a></li>
-            <li><a href="refund-policy.php">Refund &amp; Cancellation Policy</a></li>
+                         <li><a href="/About">About us</a></li>
+                        <li><a href="/Contact">Contact</a></li>
+                        <li><a href="/Support/Privacypolicy">Privacy Policy</a></li>
+                        <li><a href="/Support/Termsndcondition">Terms &amp; Conditions</a></li>
+            <li><a href="/Support/Refund">Refund &amp; Cancellation Policy</a></li>
 
                     </ul>
                 </div>

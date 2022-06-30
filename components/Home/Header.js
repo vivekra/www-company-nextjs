@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Header() {
   return (
@@ -6,7 +7,7 @@ function Header() {
     <div className="container">
         <nav className="navbar navbar-expand-lg align-items-center">
             <a className="navbar-brand" href="index.php">
-                <img src="assets/images/dq-logo.svg" alt="DigitalQ logo"/>
+                <Image src="/assets/images/dq-logo.svg" alt="DigitalQ logo" width={175} height={75}/>
             </a>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#custom-navbar"
@@ -25,26 +26,26 @@ function Header() {
                         <a  className="nav-link">Services</a>
                         <ul className="submenu">
                         <li><a href="/Service/Cloudservices">Cloud Services</a></li>
-                            <li><a href="infrastructure-management.php">Infrastructure Management</a></li>
-                        <li><a href="application-management.php">Application Management</a></li>
-                        <li><a href="security-audit.php">Security Audit</a></li>
-                        <li><a href="internet-marketing.php">Social Media Marketing</a></li>
+                        <li><a href="/Service/Infrastructure">Infrastructure Management</a></li>
+                        <li><a href="/Service/Application">Application Management</a></li>
+                        <li><a href="/Service/Security">Security Audit</a></li>
+                        <li><a href="/Service/Socialmedia">Social Media Marketing</a></li>
                         
                         </ul>
                     </li>
                     <li className="nav-item">
-                        <a href="/about" className="nav-link">About</a>
+                        <a href="/About" className="nav-link">About</a>
                     </li>
                     <li className="nav-item">
                         <a href="/Staffing" className="nav-link">Staffing Solutions</a>
                         
                     </li>
                      <li className="nav-item">
-                        <a href="/careers" className="nav-link">Careers</a>
+                        <a href="/Careers" className="nav-link">Careers</a>
                     </li>
                     
                     <li className="nav-item">
-                        <a href="/contact" className="custom-btn btn-small" >Contact</a>
+                        <a href="/Contact" className="custom-btn btn-small" >Contact</a>
                     </li>
                    
                 </ul>

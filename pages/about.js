@@ -1,10 +1,12 @@
 import React from 'react'
 import Footer from '../components/Home/Footer'
+import Image from 'next/image'
+import Header from '../components/Home/Header'
 
-function about() {
+function About() {
   return (
     <div>
-  
+  <Header/>
 
     <div className="banner d-flex align-items-center light-grey-bg">
 
@@ -29,7 +31,7 @@ function about() {
 
                 <div className="col-lg-6">
                     <div className="img-container text-center text-lg-right">
-                        <img src="assets/images/banner/about.svg" alt="about banner image" className="img-fluid"/>
+                        <Image src="/assets/images/banner/about.svg" alt="about banner image" className="img-fluid" width={450} height={316}/>
                     </div>
                 </div>
             </div>
@@ -45,7 +47,7 @@ function about() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 text-center text-lg-left">
                         <div className="img-container">
-                            <img src="assets/images/banner/about9.svg" alt="why choose us" className="img-fluid"/>
+                            <Image src="/assets/images/banner/about9.svg" alt="why choose us" className="img-fluid" width={630} height={442}/>
 
                         </div>
                     </div>
@@ -174,19 +176,19 @@ When the time comes to hire full time Operations staff, we help with that too. W
    
 
 
-    <div className="modal fade team-modal" id="team-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div className="modal fade team-modal" id="team-modal" tabIndex="-1" role="dialog" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="fas fa-times"></i>
+            <div className="modal-content">
+                <div className="modal-header">
+                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                        <i className="fas fa-times"></i>
                     </button>
                 </div>
 
-                <div class="modal-body text-center">
+                <div className="modal-body text-center">
                     <img src="assets/images/team/team-modal-img.png" alt="team modal image"
-                        class="img-fluid modal-feat-img"/>
-                    <div class="modal-title">
+                        className="img-fluid modal-feat-img"/>
+                    <div className="modal-title">
                         <h4>Steve Johnson
                             <span>Chief Exicutive Officer</span>
                         </h4>
@@ -196,25 +198,25 @@ When the time comes to hire full time Operations staff, we help with that too. W
                         actually a really good thing. But once created, this bio should represent who you are in the
                         eyes.</p>
 
-                    <ul class="social-icons">
+                    <ul className="social-icons">
                         <li>
-                            <a href="http://www.behance.net/" target="_blank" rel="noopener">
-                                <i class="fab fa-behance"></i>
+                            <a href="http://www.behance.net/" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-behance"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://twitter.com/" target="_blank" rel="noopener">
-                                <i class="fab fa-twitter"></i>
+                            <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://plus.google.com/discover" target="_blank" rel="noopener">
-                                <i class="fab fa-google-plus-g"></i>
+                            <a href="http://plus.google.com/discover" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-google-plus-g"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://dribbble.com/" target="_blank" rel="noopener">
-                                <i class="fab fa-dribbble"></i>
+                            <a href="http://dribbble.com/" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-dribbble"></i>
                             </a>
                         </li>
                     </ul>
@@ -223,57 +225,57 @@ When the time comes to hire full time Operations staff, we help with that too. W
         </div>
     </div>
 
-    <div class="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog"
+    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content white-bg">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="fas fa-times"></i>
+        <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal-content white-bg">
+                <div className="modal-header">
+                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                        <i className="fas fa-times"></i>
                     </button>
                 </div>
 
-                <div class="modal-body d-flex align-items-center justify-content-center text-center">
-                    <div class="quote-form-wrapper text-center">
+                <div className="modal-body d-flex align-items-center justify-content-center text-center">
+                    <div className="quote-form-wrapper text-center">
                         <h3>Get a Free Quote</h3>
-                        <form method="POST" class="quote-form text-center row" action="#">
-                            <div class="col-lg-6">
+                        <form method="POST" className="quote-form text-center row" action="#">
+                            <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>
                             </div>
-                            <div class="col-lg-6">
+                            <div className="col-lg-6">
                                 <input type="text" name="email" placeholder="Email"/>
                             </div>
 
-                            <div class="col-lg-6">
+                            <div className="col-lg-6">
                                 <input type="text" name="phone" placeholder="Phone"/>
                             </div>
-                            <div class="col-lg-6">
+                            <div className="col-lg-6">
                                 <input type="text" name="website" placeholder="Website"/>
                             </div>
-                            <div class="col-lg-12">
+                            <div className="col-lg-12">
                                 <textarea placeholder="Message" name="message"></textarea>
-                                <button type="submit" class="custom-btn secondary-btn w-100">GET A QUOTE</button>
-                                <div class="social-icons-wrapper d-flex justify-content-center">
+                                <button type="submit" className="custom-btn secondary-btn w-100">GET A QUOTE</button>
+                                <div className="social-icons-wrapper d-flex justify-content-center">
                                     <p>Follow us:</p>
-                                    <ul class="social-icons">
+                                    <ul className="social-icons">
                                         <li>
-                                            <a href="http://www.facebook.com/" target="_blank" rel="noopener">
-                                                <i class="fab fa-facebook-f"></i>
+                                            <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="http://twitter.com/" target="_blank" rel="noopener">
-                                                <i class="fab fa-twitter"></i>
+                                            <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="http://youtube.com/" target="_blank" rel="noopener">
-                                                <i class="fab fa-youtube"></i>
+                                            <a href="http://youtube.com/" target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-youtube"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="http://plus.google.com/discover" target="_blank" rel="noopener">
-                                                <i class="fab fa-google-plus-g"></i>
+                                            <a href="http://plus.google.com/discover" target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-google-plus-g"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -290,4 +292,4 @@ When the time comes to hire full time Operations staff, we help with that too. W
   )
 }
 
-export default about
+export default About

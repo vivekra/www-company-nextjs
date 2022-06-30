@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Banner() {
@@ -17,7 +18,7 @@ function Banner() {
 
             <div className="col-lg-6">
                 <div className="img-container text-center text-lg-right">
-                    <img src="assets/images/banner/home1.svg" alt="Home banner image" className="img-fluid"/>
+                    <Image src={"/assets/images/banner/home1.svg"} height={300} width={400} className={"img-fluid"}/>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function Features() {
   return (
     <section className="features light-grey-bg" id="cynic-about" data-scroll-offset="165">
@@ -10,7 +10,7 @@ function Features() {
             <div className="row align-items-center">
                 <div className="col-lg-6 order-lg-2 offset-lg-1 text-center text-lg-right">
                     <div className="img-container">
-                        <img src="assets/images/banner/home3.svg" alt="why choose us" className="img-fluid"/>
+                        <Image src="/assets/images/banner/home3.svg" alt="why choose us" className="img-fluid" width={595} height={457}/>
 
                     </div>
                 </div>
@@ -35,7 +35,7 @@ function Features() {
             <div className="row align-items-center">
                 <div className="col-lg-6 text-center text-lg-left">
                     <div className="img-container">
-                        <img src="assets/images/banner/home5.svg" alt="why choose us" className="img-fluid"/>
+                        <Image src="/assets/images/banner/home5.svg" alt="why choose us" className="img-fluid" width={648} height={517}/>
 
                     </div>
                 </div>

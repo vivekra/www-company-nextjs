@@ -1,10 +1,12 @@
 import React from 'react'
 import Footer from '../components/Home/Footer'
+import Image from 'next/image'
+import Header from '../components/Home/Header'
 
-function careers() {
+function Careers() {
   return (
     <div>
-        
+        <Header/> 
     <div className="banner d-flex align-items-center light-grey-bg">
 
 <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
@@ -28,7 +30,7 @@ function careers() {
 
         <div className="col-lg-6">
             <div className="img-container text-center text-lg-right">
-                <img src="assets/images/banner/careers.svg" alt="Careers banner image" className="img-fluid"/>
+                <Image src="/assets/images/banner/careers.svg" alt="Careers banner image" className="img-fluid" width={630} height={469}/>
             </div>
         </div>
     </div>
@@ -55,7 +57,7 @@ function careers() {
 </section>
 
 
-<div className="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog"
+<div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
 aria-hidden="true">
 <div className="modal-dialog modal-dialog-centered" role="document">
     <div className="modal-content white-bg">
@@ -89,17 +91,17 @@ aria-hidden="true">
                             <p>Follow us:</p>
                             <ul className="social-icons">
                                 <li>
-                                    <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
+                                    <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
+                                    <a href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="http://youtube.com/dq.india" target="_blank" rel="noopener">
+                                    <a href="http://youtube.com/dq.india" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-instagram"></i>
                                     </a>
                                 </li>
@@ -119,4 +121,4 @@ aria-hidden="true">
   )
 }
 
-export default careers
+export default Careers

@@ -1,44 +1,47 @@
 import React from 'react'
 import Footer from '../components/Home/Footer';
+import Image from 'next/image'
+import Header from '../components/Home/Header'
 
 function Staffing() {
   return (
    <div>
-        <div class="banner d-flex align-items-center light-grey-bg">
+    <Header/>
+        <div className="banner d-flex align-items-center light-grey-bg">
 
-<nav class="breadcrumb-wrapper" aria-label="breadcrumb">
-    <div class="container">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Solutions</li>
+<nav className="breadcrumb-wrapper" aria-label="breadcrumb">
+    <div className="container">
+        <ol className="breadcrumb">
+            <li className="breadcrumb-item"><a href="/">Home</a></li>
+            <li className="breadcrumb-item active" aria-current="page">Solutions</li>
         </ol>
     </div>
 </nav>
 
 
-<div class="container">
-    <div class="row no-gutters align-items-center">
-        <div class="col-lg-6 text-center text-lg-left">
+<div className="container">
+    <div className="row no-gutters align-items-center">
+        <div className="col-lg-6 text-center text-lg-left">
             <h1>Staffing Solutions</h1>
-            <p class="larger-txt">
+            <p className="larger-txt">
                 In a tight labor market, finding proficient and talented professionals remains a challenge for many companies. With our core capability in contingent staffing, we are equipped with the right resources to give you a complete solution.
                 DigitalQ is one-stop shop for your staffing requirements.
             </p>
 
         </div>
 
-        <div class="col-lg-6">
-            <div class="img-container text-center text-lg-right">
-                <img src="assets/images/banner/contact2.svg" alt="Solutions banner image" class="img-fluid"/>
+        <div className="col-lg-6">
+            <div className="img-container text-center text-lg-right">
+                <Image src="/assets/images/banner/contact2.svg" alt="Solutions banner image" className="img-fluid" width={630} height={469}/>
             </div>
         </div>
     </div>
 </div>
 </div>
-<section class="contact-us">
-        <div class="container">
+<section className="contact-us">
+        <div className="container">
            
-            <p class="larger-txt">
+            <p className="larger-txt">
             DigitalQ is designed to help you during every aspect of your recruitment journey.
             We are  here to listen, diagnose and consult with you to deliver a truly tailormade IT staffing solution that satisfies your needs.We know that the working world has undergone massive changes since the beginning of 2020, and we are here to support you whether it is IT contract staffing, permanent staffing, or Volume-based project staffing.</p>
 
