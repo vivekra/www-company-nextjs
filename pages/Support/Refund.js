@@ -1,9 +1,12 @@
 import React from 'react'
+import Image from 'next/image'
+import Header from '../../components/Home/Header';
+import Footer from '../../components/Home/Footer';
 
 function Refund() {
   return (
     <div>
-
+<Header/>
     <div className="banner d-flex align-items-center light-grey-bg">
 
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
@@ -26,14 +29,14 @@ function Refund() {
 
                 <div className="col-lg-6">
                     <div className="img-container text-center text-lg-right">
-                        <img src="assets/images/banner/opensource.svg" alt="Opensource banner image" className="img-fluid"/>
+                        <Image src="/assets/images/banner/opensource.svg" alt="Opensource banner image" className="img-fluid" width={630} height={367}/>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 	
-	   <section className="contact-us section-gap">
+	   {/* <section className="contact-us section-gap"> */}
         <div className="container">
             <h2 className="section-title">Overview</h2>
             <p className="larger-txt">
@@ -43,7 +46,7 @@ function Refund() {
 
 
 
-<table style="background-color: #FFFFFF;"><tbody><tr style="background-color: #2E86C1;"><td colspan="1" rowspan="1" style="text-align: center;"><span style="color: #ffffff;">Canceled</span></td><td colspan="1" rowspan="1" style="text-align: center;"><span style="color: #ffffff;">Policy</span></td></tr><tr><td colspan="1" rowspan="1" style="text-align: left;">3-30 Days</td><td colspan="1" rowspan="1" style="text-align: left;">Between 3-30 days, you are eligible for a refund on all hosting services. We are not able<br/>			to refund domain registration fees during initial purchase or renewals.</td></tr><tr><td colspan="1" rowspan="1" style="text-align: left;">Within 3 Days</td><td colspan="1" rowspan="1" style="text-align: left;">If canceled within the first 3 days, you are able to receive a full refund<br/>			for the hosting (minus $15 for the domain, if applicable).</td></tr><tr><td colspan="1" rowspan="1" style="text-align: left;">30+ Days</td><td colspan="1" rowspan="1" style="text-align: left;">No refunds are offered after 30 days. </td></tr></tbody></table>
+<table style={{backgroundColor: "#FFFFFF"}}><tbody><tr style={{backgroundColor: "#2E86C1"}}><td colspan="1" rowspan="1" style={{textAlign: "center"}}><span style={{color: "#ffffff"}}>Canceled</span></td><td colspan="1" rowspan="1" style={{textAlign: "center"}}><span style={{color: "#ffffff"}}>Policy</span></td></tr><tr><td colspan="1" rowspan="1" style={{textAlign: "left"}}>3-30 Days</td><td colspan="1" rowspan="1" style={{textAlign: "left"}}>Between 3-30 days, you are eligible for a refund on all hosting services. We are not able<br/>			to refund domain registration fees during initial purchase or renewals.</td></tr><tr><td colspan="1" rowspan="1" style={{textAlign: "left"}}>Within 3 Days</td><td colspan="1" rowspan="1" style={{textAlign: "left"}}>If canceled within the first 3 days, you are able to receive a full refund<br/>			for the hosting (minus $15 for the domain, if applicable).</td></tr><tr><td colspan="1" rowspan="1" style={{textAlign: "left"}}>30+ Days</td><td colspan="1" rowspan="1" style={{textAlign: "left"}}>No refunds are offered after 30 days. </td></tr></tbody></table>
 
 <h2 id="Account"><br/><a id="old-accounts" name="old-accounts"></a>Accounts created before 4/1/2017</h2>
 These accounts are still able to receive a prorated refund if they cancel. If you wish to renew it and make a term change or adjust your account in any way, you can still receive the prorated refund. The no refund after 30 days policy is only applicable to new accounts created on or after 4/1/2017. 
@@ -100,7 +103,7 @@ The customer must pay a fee equal to 50% of the total Annual Term (“Cancellati
 
     
        
-    </section>
+    {/* </section> */}
 
   
     <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog"
@@ -161,9 +164,9 @@ The customer must pay a fee equal to 50% of the total Annual Term (“Cancellati
             </div>
         </div>
     </div>
- 
+ <Footer/>
     </div>
   )
 }
 
-export default Refund
+export default Refund;

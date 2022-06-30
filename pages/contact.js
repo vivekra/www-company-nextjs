@@ -65,7 +65,6 @@ Your feedback is important to us in order to provide the very best service possi
                 </div>
                 <div className="col-lg-12">
                     <textarea placeholder="Message" name="message"></textarea>
-                    {/* <p className='submit-loading-img' style="display:none"><img src="assets/images/ajax-loader.gif" alt="loading" /></p> */}
 		    <button type="submit" className="custom-btn secondary-btn" id="contact_us">Contact Us</button>
 		    
                     <div className="social-icons-wrapper d-flex justify-content-center">
@@ -170,8 +169,8 @@ Your feedback is important to us in order to provide the very best service possi
                 <div className="col-lg-4">
                     <div className="footer-widget widget-about">
 					
-                     <a href="index.php"><img className="footer-logo" src="assets/images/dq-logo-bottom.svg" alt="footer logo"
-                            height="16"/></a>
+                     <a href="index.php"><Image className="footer-logo" src="assets/images/dq-logo-bottom.svg" alt="footer logo"w width={630}
+                            height={330}/></a>
                     <p>Thanks for visiting us. our services will promote your brand, business and our products, tools will enchance your 
                         growth in your business domain.</p>
                        

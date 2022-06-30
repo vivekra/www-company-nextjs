@@ -6,39 +6,39 @@ function Socialmedia() {
   return (
     <div>
         <Header/>
- <div class="banner d-flex align-items-center light-grey-bg">
+ <div className="banner d-flex align-items-center light-grey-bg">
 
-        <nav class="breadcrumb-wrapper" aria-label="breadcrumb">
-            <div class="container">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Social Media Marketing</li>
+        <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
+            <div className="container">
+                <ol className="breadcrumb">
+                    <li className="breadcrumb-item"><a href="/">Home</a></li>
+                    <li className="breadcrumb-item active" aria-current="page">Social Media Marketing</li>
                 </ol>
             </div>
         </nav>
 
 
-        <div class="container">
-            <div class="row no-gutters align-items-center">
-                <div class="col-lg-6 text-center text-lg-left">
+        <div className="container">
+            <div className="row no-gutters align-items-center">
+                <div className="col-lg-6 text-center text-lg-left">
                     <h1>Social Media Marketing</h1>
-                    <p class="larger-txt">Internet Marketing is the art of optimizing a website on the basis of some search engine criteria and improves its ranking in the search engine result pages. It encompasses Search Engine Optimization and some other online marketing tools to build the WebPages of a website so that they achieve increased Search Engine Visibility. There are many marketing techniques that are employed by different search engine optimization firms during the search engine optimization process.</p>
+                    <p className="larger-txt">Internet Marketing is the art of optimizing a website on the basis of some search engine criteria and improves its ranking in the search engine result pages. It encompasses Search Engine Optimization and some other online marketing tools to build the WebPages of a website so that they achieve increased Search Engine Visibility. There are many marketing techniques that are employed by different search engine optimization firms during the search engine optimization process.</p>
 
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="img-container text-center text-lg-right">
-                        <Image src="/assets/images/banner/social.svg" alt="Social media image" class="img-fluid" width={630} height={443}/>
+                <div className="col-lg-6">
+                    <div className="img-container text-center text-lg-right">
+                        <Image src="/assets/images/banner/social.svg" alt="Social media image" className="img-fluid" width={630} height={443}/>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 	
-	   <section class="contact-us section-gap">
-        <div class="container">
-            <h2 class="section-title">Search Engine Optimization</h2>
-            <p class="larger-txt">
+	   <section className="contact-us section-gap">
+        <div className="container">
+            <h2 className="section-title">Search Engine Optimization</h2>
+            <p className="larger-txt">
 Our search engine optimization solution aims at increasing the visibility of your site on the World Wide Web. Search engine optimization strategies, if not undertaken correctly, can incur heavy loses to your business and site. Search Engine Optimization is crucial to the success of your online business in this day and age! We can help you with your search engine marketing concerns. This is where we step in with our team of professionals to do the work for you. At DigitalQ, we have trained and qualified professionals to handle all of the search engine optimization work for you.
 <br/>
 <b>Website Assessment</b><br/>
@@ -72,52 +72,52 @@ PPC Campaigning is an effective tool of Internet Marketing where the webmasters 
     </section>
 
   
-    <div class="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
+    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content white-bg">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="fas fa-times"></i>
+        <div className="modal-dialog modal-dialog-centered" role="document">
+            <div className="modal-content white-bg">
+                <div className="modal-header">
+                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                        <i className="fas fa-times"></i>
                     </button>
                 </div>
 
-                <div class="modal-body d-flex align-items-center justify-content-center text-center">
-                    <div class="quote-form-wrapper text-center">
+                <div className="modal-body d-flex align-items-center justify-content-center text-center">
+                    <div className="quote-form-wrapper text-center">
                         <h3>We’d love to talk about working together.</h3>
-                        <form method="POST" class="quote-form text-center row" action="contact.php#">
-                            <div class="col-lg-6">
+                        <form method="POST" className="quote-form text-center row" action="contact.php#">
+                            <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>
                             </div>
-                            <div class="col-lg-6">
+                            <div className="col-lg-6">
                                 <input type="text" name="email" placeholder="Email"/>
                             </div>
 
-                            <div class="col-lg-6">
+                            <div className="col-lg-6">
                                 <input type="text" name="phone" placeholder="Phone"/>
                             </div>
-                            <div class="col-lg-6">
+                            <div className="col-lg-6">
                                 <input type="text" name="linked_url" placeholder="LinkedIn URL"/>
                             </div>
-                            <div class="col-lg-12">
+                            <div className="col-lg-12">
                                 <textarea placeholder="Message" name="message"></textarea>
-                                <button type="submit" class="custom-btn secondary-btn w-100">Submit</button>
-                                <div class="social-icons-wrapper d-flex justify-content-center">
+                                <button type="submit" className="custom-btn secondary-btn w-100">Submit</button>
+                                <div className="social-icons-wrapper d-flex justify-content-center">
                                     <p>Follow us:</p>
-                                    <ul class="social-icons">
+                                    <ul className="social-icons">
                                         <li>
                                             <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
-                                                <i class="fab fa-facebook-f"></i>
+                                                <i className="fab fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
-                                                <i class="fab fa-twitter"></i>
+                                                <i className="fab fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="http://youtube.com/digitalq" target="_blank" rel="noopener">
-                                                <i class="fab fa-youtube"></i>
+                                                <i className="fab fa-youtube"></i>
                                             </a>
                                         </li>
                                       

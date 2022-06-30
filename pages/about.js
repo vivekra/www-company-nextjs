@@ -73,7 +73,7 @@ No single individual can be an expert in every possible technology, or have expe
                 <div className="row align-items-center">
                     <div className="col-lg-6 order-lg-2 offset-lg-1 text-center text-lg-right">
                         <div className="img-container">
-                            <img src="assets/images/banner/about2.svg" alt="why choose us" className="img-fluid"/>
+                            <Image src="assets/images/banner/about2.svg" alt="why choose us" className="img-fluid" width={630} height={442}/>
 
                         </div>
                     </div>
@@ -110,7 +110,7 @@ Hire, train, and augment your own Operations Staff. We've met a lot of excellent
                 <div className="row align-items-center">
                     <div className="col-lg-6 text-center text-lg-left">
                         <div className="img-container">
-                            <img src="assets/images/banner/about8.svg" alt="why choose us" className="img-fluid"/>
+                            <Image src="assets/images/banner/about8.svg" alt="why choose us" className="img-fluid" width={630} height={442}/>
 
                         </div>
                     </div>
@@ -143,7 +143,7 @@ When the time comes to hire full time Operations staff, we help with that too. W
                 <div className="row align-items-center">
                     <div className="col-lg-6 order-lg-2 offset-lg-1 text-center text-lg-right">
                         <div className="img-container">
-                            <img src="assets/images/banner/staff1.svg" alt="why choose us" className="img-fluid"/>
+                            <Image src="assets/images/banner/staff1.svg" alt="why choose us" className="img-fluid" width={630} height={442}/>
 
                         </div>
                     </div>
@@ -186,8 +186,8 @@ When the time comes to hire full time Operations staff, we help with that too. W
                 </div>
 
                 <div className="modal-body text-center">
-                    <img src="assets/images/team/team-modal-img.png" alt="team modal image"
-                        className="img-fluid modal-feat-img"/>
+                    <Image src="assets/images/team/team-modal-img.png" alt="team modal image"
+                        className="img-fluid modal-feat-img" width={630} height={442}/>
                     <div className="modal-title">
                         <h4>Steve Johnson
                             <span>Chief Exicutive Officer</span>
