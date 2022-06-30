@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Header from '../../components/Home/Header'
-
+import Link from 'next/link'
 function Socialmedia() {
   return (
     <div>
@@ -11,7 +11,7 @@ function Socialmedia() {
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><a href="/">Home</a></li>
+                    <li className="breadcrumb-item"><Link href="/">Home</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">Social Media Marketing</li>
                 </ol>
             </div>
@@ -106,19 +106,19 @@ PPC Campaigning is an effective tool of Internet Marketing where the webmasters 
                                     <p>Follow us:</p>
                                     <ul className="social-icons">
                                         <li>
-                                            <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
+                                            <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-facebook-f"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
+                                            <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-twitter"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://youtube.com/digitalq" target="_blank" rel="noopener">
+                                            <Link href="http://youtube.com/digitalq" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-youtube"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                       
                                     </ul>

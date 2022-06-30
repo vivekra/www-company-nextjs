@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
 function Header() {
   return (
-    <header className="page-header">
+    <>
     <div className="container">
         <nav className="navbar navbar-expand-lg align-items-center">
             <a className="navbar-brand" href="index.php">
@@ -25,35 +25,35 @@ function Header() {
                     
                         <a  className="nav-link">Services</a>
                         <ul className="submenu">
-                        <li><a href="/Service/Cloudservices">Cloud Services</a></li>
-                        <li><a href="/Service/Infrastructure">Infrastructure Management</a></li>
-                        <li><a href="/Service/Application">Application Management</a></li>
-                        <li><a href="/Service/Security">Security Audit</a></li>
-                        <li><a href="/Service/Socialmedia">Social Media Marketing</a></li>
+                        <li><Link href="/Service/Cloudservices"><a>Cloud Services</a></Link></li>
+                        <li><Link href="/Service/Infrastructure"><a>Infrastructure Management</a></Link></li>
+                        <li><Link href="/Service/Application"><a>Application Management</a></Link></li>
+                        <li><Link href="/Service/Security"><a>Security Audit</a></Link></li>
+                        <li><Link href="/Service/Socialmedia"><a>Social Media Marketing</a></Link></li>
                         
                         </ul>
                     </li>
                     <li className="nav-item">
-                        <a href="/About" className="nav-link">About</a>
+                        <Link href="/About" className="nav-link"><a>About</a></Link>
                     </li>
                     <li className="nav-item">
-                        <a href="/Staffing" className="nav-link">Staffing Solutions</a>
+                        <Link href="/Staffing" className="nav-link"><a>Staffing Solutions</a></Link>
                         
                     </li>
                      <li className="nav-item">
-                        <a href="/Careers" className="nav-link">Careers</a>
+                        <Link href="/Careers" className="nav-link"><a>Careers</a></Link>
                     </li>
                     
                     <li className="nav-item">
-                        <a href="/Contact" className="custom-btn btn-small" >Contact</a>
+                        <Link href="/Contact" className="custom-btn btn-small" ><a>Contact</a></Link>
                     </li>
                    
                 </ul>
             </div>
         </nav>
     </div>
-</header>
+</>
   )
 }
 
-export default Header
+export default Header;

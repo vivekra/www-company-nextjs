@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Home/Footer'
 import Image from 'next/image'
 import Header from '../components/Home/Header'
-
+import Link from 'next/link'
 function About() {
   return (
     <div>
@@ -13,7 +13,7 @@ function About() {
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><a href="http://localhost:3000/">Home</a></li>
+                    <li className="breadcrumb-item"><Link href="http://localhost:3000/">Home</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">About Us</li>
                 </ol>
             </div>
@@ -200,24 +200,24 @@ When the time comes to hire full time Operations staff, we help with that too. W
 
                     <ul className="social-icons">
                         <li>
-                            <a href="http://www.behance.net/" target="_blank" rel="noopener noreferrer">
+                            <Link href="http://www.behance.net/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-behance"></i>
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
+                            <Link href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-twitter"></i>
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="http://plus.google.com/discover" target="_blank" rel="noopener noreferrer">
+                            <Link href="http://plus.google.com/discover" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-google-plus-g"></i>
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="http://dribbble.com/" target="_blank" rel="noopener noreferrer">
+                            <Link href="http://dribbble.com/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-dribbble"></i>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -259,24 +259,24 @@ When the time comes to hire full time Operations staff, we help with that too. W
                                     <p>Follow us:</p>
                                     <ul className="social-icons">
                                         <li>
-                                            <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                                            <Link href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-facebook-f"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
+                                            <Link href="http://twitter.com/" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-twitter"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://youtube.com/" target="_blank" rel="noopener noreferrer">
+                                            <Link href="http://youtube.com/" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-youtube"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://plus.google.com/discover" target="_blank" rel="noopener noreferrer">
+                                            <Link href="http://plus.google.com/discover" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-google-plus-g"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>

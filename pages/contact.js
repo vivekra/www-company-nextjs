@@ -2,7 +2,7 @@ import React from 'react'
 import Location from '../components/Home/Location'
 import Image from 'next/image'
 import Header from '../components/Home/Header'
-
+import Link from 'next/link'
 
 function Contact() {
   return (
@@ -13,7 +13,7 @@ function Contact() {
     <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
         <div className="container">
             <ol className="breadcrumb">
-            <li className="breadcrumb-item"><a href="http://localhost:3000/">Home</a></li>
+            <li className="breadcrumb-item"><Link href="http://localhost:3000/">Home</Link></li>
 
                 <li className="breadcrumb-item active" aria-current="page">Contact</li>
             </ol>
@@ -71,24 +71,24 @@ Your feedback is important to us in order to provide the very best service possi
                         <p>Follow us:</p>
                         <ul className="social-icons">
                              <li>
-                                <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook-f"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-twitter"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
-                                </a>
+                                </Link>
                             </li>
                         </ul> 
                     </div> 
@@ -134,24 +134,24 @@ Your feedback is important to us in order to provide the very best service possi
                                 <p>Follow us:</p>
                                 <ul className="social-icons">
                                     <li>
-                                <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook-f"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-twitter"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
-                                </a>
+                                </Link>
                             </li>
                                 </ul>
                             </div>
@@ -169,31 +169,31 @@ Your feedback is important to us in order to provide the very best service possi
                 <div className="col-lg-4">
                     <div className="footer-widget widget-about">
 					
-                     <a href="index.php"><Image className="footer-logo" src="assets/images/dq-logo-bottom.svg" alt="footer logo"w width={630}
-                            height={330}/></a>
+                     <Link href="index.php"><Image className="footer-logo" src="assets/images/dq-logo-bottom.svg" alt="footer logo"w width={630}
+                            height={330}/></Link>
                     <p>Thanks for visiting us. our services will promote your brand, business and our products, tools will enchance your 
                         growth in your business domain.</p>
                        
                         <ul className="social-icons">
                             <li>
-                                <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook-f"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-twitter"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                         

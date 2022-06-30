@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Home/Footer'
 import Image from 'next/image'
 import Header from '../components/Home/Header'
-
+import Link from 'next/link'
 function Careers() {
   return (
     <div>
@@ -12,7 +12,7 @@ function Careers() {
 <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
     <div className="container">
         <ol className="breadcrumb">
-        <li className="breadcrumb-item"><a href="http://localhost:3000/">Home</a></li>
+        <li className="breadcrumb-item"><Link href="http://localhost:3000/">Home</Link></li>
             <li className="breadcrumb-item active" aria-current="page">Careers</li>
         </ol>
     </div>
@@ -47,8 +47,8 @@ function Careers() {
             <div className="col-lg-12">
                 
                 
-             <a href="careers.php#" className="custom-btn secondary-btn" data-toggle="modal"
-                    data-target="#quote-modal">Apply</a>
+             <Link href="careers.php#" className="custom-btn secondary-btn" data-toggle="modal"
+                    data-target="#quote-modal">Apply</Link>
                
             </div>
        
@@ -91,19 +91,19 @@ aria-hidden="true">
                             <p>Follow us:</p>
                             <ul className="social-icons">
                                 <li>
-                                    <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                    <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-facebook-f"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                    <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-twitter"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="http://youtube.com/dq.india" target="_blank" rel="noopener noreferrer">
+                                    <Link href="http://youtube.com/dq.india" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-instagram"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                               
                             </ul>

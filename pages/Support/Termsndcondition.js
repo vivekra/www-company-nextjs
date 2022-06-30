@@ -67,19 +67,19 @@ All content present on this site is the exclusive property of DigitalQ. The soft
                                     <p>Follow us:</p>
                                     <ul className="social-icons">
                                         <li>
-                                            <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
+                                            <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-facebook-f"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
+                                            <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-twitter"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://youtube.com/digitalq" target="_blank" rel="noopener">
+                                            <Link href="http://youtube.com/digitalq" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-youtube"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                       
                                     </ul>

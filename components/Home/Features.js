@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 function Features() {
   return (
     <section className="features light-grey-bg" id="cynic-about" data-scroll-offset="165">
@@ -23,8 +24,8 @@ function Features() {
 
 
 
-
-                        <a href="about-overview.php" className="hyperlink">Learn More About Us</a>
+                    <Link href="about-overview.php" > 
+                        <a className="hyperlink">Learn More About Us</a> </Link>
 
                     </div>
                 </div>
@@ -53,9 +54,9 @@ function Features() {
 
 
 
+                        <Link href="about-overview.php">
 
-
-                        <a href="about-overview.php" className="hyperlink">Learn More About Us</a>
+                        <a className="hyperlink">Learn More About Us</a> </Link>
 
                     </div>
                 </div>

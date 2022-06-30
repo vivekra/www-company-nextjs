@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Header from '../../components/Home/Header';
 import Footer from '../../components/Home/Footer';
-
+import Link from 'next/link'
 function Refund() {
   return (
     <div>
@@ -12,7 +12,7 @@ function Refund() {
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><a href="index.php">Home</a></li>
+                    <li className="breadcrumb-item"><Link href="index.php">Home</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">Refund and Cancellation</li>
                 </ol>
             </div>
@@ -46,7 +46,7 @@ function Refund() {
 
 
 
-<table style={{backgroundColor: "#FFFFFF"}}><tbody><tr style={{backgroundColor: "#2E86C1"}}><td colspan="1" rowspan="1" style={{textAlign: "center"}}><span style={{color: "#ffffff"}}>Canceled</span></td><td colspan="1" rowspan="1" style={{textAlign: "center"}}><span style={{color: "#ffffff"}}>Policy</span></td></tr><tr><td colspan="1" rowspan="1" style={{textAlign: "left"}}>3-30 Days</td><td colspan="1" rowspan="1" style={{textAlign: "left"}}>Between 3-30 days, you are eligible for a refund on all hosting services. We are not able<br/>			to refund domain registration fees during initial purchase or renewals.</td></tr><tr><td colspan="1" rowspan="1" style={{textAlign: "left"}}>Within 3 Days</td><td colspan="1" rowspan="1" style={{textAlign: "left"}}>If canceled within the first 3 days, you are able to receive a full refund<br/>			for the hosting (minus $15 for the domain, if applicable).</td></tr><tr><td colspan="1" rowspan="1" style={{textAlign: "left"}}>30+ Days</td><td colspan="1" rowspan="1" style={{textAlign: "left"}}>No refunds are offered after 30 days. </td></tr></tbody></table>
+<table style={{backgroundColor: "#FFFFFF"}}><tbody><tr style={{backgroundColor: "#2E86C1"}}><td colSpan="1" rowSpan="1" style={{textAlign: "center"}}><span style={{color: "#ffffff"}}>Canceled</span></td><td colSpan="1" rowSpan="1" style={{textAlign: "center"}}><span style={{color: "#ffffff"}}>Policy</span></td></tr><tr><td colSpan="1" rowSpan="1" style={{textAlign: "left"}}>3-30 Days</td><td colSpan="1" rowSpan="1" style={{textAlign: "left"}}>Between 3-30 days, you are eligible for a refund on all hosting services. We are not able<br/>			to refund domain registration fees during initial purchase or renewals.</td></tr><tr><td colSpan="1" rowSpan="1" style={{textAlign: "left"}}>Within 3 Days</td><td colSpan="1" rowSpan="1" style={{textAlign: "left"}}>If canceled within the first 3 days, you are able to receive a full refund<br/>			for the hosting (minus $15 for the domain, if applicable).</td></tr><tr><td colSpan="1" rowSpan="1" style={{textAlign: "left"}}>30+ Days</td><td colSpan="1" rowSpan="1" style={{textAlign: "left"}}>No refunds are offered after 30 days. </td></tr></tbody></table>
 
 <h2 id="Account"><br/><a id="old-accounts" name="old-accounts"></a>Accounts created before 4/1/2017</h2>
 These accounts are still able to receive a prorated refund if they cancel. If you wish to renew it and make a term change or adjust your account in any way, you can still receive the prorated refund. The no refund after 30 days policy is only applicable to new accounts created on or after 4/1/2017. 
@@ -98,7 +98,7 @@ The customer must pay a fee equal to 50% of the total Annual Term (“Cancellati
 
 <p>This concern needs a further check and assistance coming from our Professional Services team. Please contact our customer service representative for further details. </p>
 
-<p><b>For more information, write to our 24/7 Customer Support at <a href="#" target="_blank"><strong>support at digitalq.co.in</strong></a> to request a refund.</b></p></div>
+<p><b>For more information, write to our 24/7 Customer Support at <Link href="#" target="_blank"><strong>support at digitalq.co.in</strong></Link> to request a refund.</b></p></div>
 
 
     
@@ -140,19 +140,19 @@ The customer must pay a fee equal to 50% of the total Annual Term (“Cancellati
                                     <p>Follow us:</p>
                                     <ul className="social-icons">
                                         <li>
-                                            <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
+                                            <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-facebook-f"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
+                                            <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-twitter"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://youtube.com/digitalq" target="_blank" rel="noopener">
+                                            <Link href="http://youtube.com/digitalq" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-youtube"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                       
                                     </ul>

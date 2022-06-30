@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../../components/Home/Footer'
 import Image from 'next/image'
 import Header from '../../components/Home/Header'
-
+import Link from 'next/link'
 function Infrastructure() {
   return (
     <div>
@@ -12,7 +12,7 @@ function Infrastructure() {
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><a href="/">Home</a></li>
+                    <li className="breadcrumb-item"><Link href="/">Home</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">Infrastructure Management</li>
                 </ol>
             </div>
@@ -105,19 +105,19 @@ s/chedule a free pre-assessment, please write to us at cloudcas@digitalq.co.in</
                                     <p>Follow us:</p>
                                     <ul className="social-icons">
                                         <li>
-                                            <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                            <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-facebook-f"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
+                                            <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                                 <i className="fab fa-twitter"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="http://youtube.com/digitalq" target="_blank" rel="noopener noreferrer ">
+                                            <Link href="http://youtube.com/digitalq" target="_blank" rel="noopener noreferrer ">
                                                 <i className="fab fa-youtube"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                       
                                     </ul>
