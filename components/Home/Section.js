@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Section() {
   return (
     <section className="services light-grey-bg" id="cynic-services" data-scroll-offset="165">
-    <div className="floating-service-wrapper section-gap">
+    {/* <div className="floating-service-wrapper section-gap">
         <div className="container">
             <h2 className="section-title text-center">Services We Provide</h2>
             <p className="larger-txt text-center">DigitalQ provides IT professional services, Software development to Digital Marketing.</p>
@@ -12,7 +12,7 @@ function Section() {
                 <div className="row justify-content-center">
 
                     <div className="col-xl-4 col-lg-6">
-                        <Link href="infrastructure-management.php" className="service-block text-center">
+                        <Link href="/Service/Infrastructure" className="service-block text-center">
                         <Image src="assets/images/services/service-icon-1.png" alt="Logo and branding" width={51} height={50}/>
                             <h4>Cloud Infrastructure Management</h4>
                             <p>Whilst the whole world looks moving towards Cloud based solution, DigitalQ pioneers in
@@ -69,7 +69,7 @@ function Section() {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
 </section>
   )
 }

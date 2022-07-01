@@ -2,6 +2,7 @@ import React from 'react'
 import Location from '../components/Home/Location'
 import Image from 'next/image'
 import Header from '../components/Home/Header'
+import Footer from '../components/Home/Footer'
 import Link from 'next/link'
 
 function Contact() {
@@ -163,91 +164,9 @@ Your feedback is important to us in order to provide the very best service possi
     </div>
 </div>
 
-    <footer className="page-footer dark-footer-bg">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-4">
-                    <div className="footer-widget widget-about">
-					
-                     <Link href="index.php"><Image className="footer-logo" src="assets/images/dq-logo-bottom.svg" alt="footer logo"w width={630}
-                            height={330}/></Link>
-                    <p>Thanks for visiting us. our services will promote your brand, business and our products, tools will enchance your 
-                        growth in your business domain.</p>
-                       
-                        <ul className="social-icons">
-                            <li>
-                                <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
-                                    <i className="fab fa-facebook-f"></i>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
-                                    <i className="fab fa-twitter"></i>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
-                                    <i className="fab fa-linkedin"></i>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
-                                    <i className="fab fa-instagram"></i>
-                                </Link>
-                            </li>
-                        </ul>
-                        
-                    </div>
-					
-                </div>
-				
+   
 
-                <div className="col-lg-3">
-                    <div className="footer-widget">
-                        <h5 className="footer-nav-title">Services</h5>
-                        <ul className="footer-nav dynamic-nav">
-							<li><a href="infrastructure-management.php">Infrastructure Management</a></li>
-							<li><a href="application-management.php">Application Management</a></li>
-							<li><a href="staff-augmentation.php">Staff Augmentation</a></li>
-							<li><a href="security-audit.php">Security Audit</a></li>
-							<li><a href="internet-marketing.php">Social Media Marketing</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="col-lg-3">
-                    <div className="footer-widget">
-                        <h5 className="footer-nav-title">Support</h5>
-                        <ul className="footer-nav dynamic-nav">
-							 <li><a href="about-overview.php">About us</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><a href="privacy.php">Privacy Policy</a></li>
-                            <li><a href="terms.php">Terms &amp; Conditions</a></li>
-			     <li><a href="refund-policy.php">Refund &amp; Cancellation Policy</a></li>	
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="col-lg-2">
-                    <div className="footer-widget">
-                        <h5 className="footer-nav-title">Solutions</h5>
-                        <ul className="footer-nav dynamic-nav">
-                            <li><a href="opensource.php">Open Source Solution</a></li>
-                           
-							<li><a href="https://dqserv.com">Restaurant POS</a></li>
-							<li><a href="https://dqserv.com">Customer Issue Tracking System</a></li>
-                            <li><a href="https://dqserv.com">Lead Management System</a></li>
-                           
-                        </ul>
-                    </div>
-                </div>
-            </div>
-                        <p className="copywrite-txt text-center" >© 2020 <a href="https://digitalq.co.in">DigitalQ Information Services Pvt Ltd</a>. All Rights
-                            Reserved.</p>
-        </div>
-    </footer>
-
-
+<Footer />
     </div>
   )
 }

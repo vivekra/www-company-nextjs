@@ -2,6 +2,8 @@ import React from 'react'
 import Footer from '../components/Home/Footer';
 import Image from 'next/image'
 import Header from '../components/Home/Header'
+import Link from 'next/link'
+
 
 function Staffing() {
   return (
@@ -12,7 +14,7 @@ function Staffing() {
 <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
     <div className="container">
         <ol className="breadcrumb">
-            <li className="breadcrumb-item"><a href="/">Home</a></li>
+            <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
             <li className="breadcrumb-item active" aria-current="page">Solutions</li>
         </ol>
     </div>

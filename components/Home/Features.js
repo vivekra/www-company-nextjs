@@ -24,8 +24,9 @@ function Features() {
 
 
 
-                    <Link href="about-overview.php" > 
-                        <a className="hyperlink">Learn More About Us</a> </Link>
+                    <Link href="/About" > 
+                        <a className="hyperlink">Learn More About Us</a>
+                    </Link>
 
                     </div>
                 </div>
@@ -54,9 +55,9 @@ function Features() {
 
 
 
-                        <Link href="about-overview.php">
-
-                        <a className="hyperlink">Learn More About Us</a> </Link>
+                        <Link href="/About">
+                            <a className="hyperlink">Learn More About Us</a>
+                        </Link>
 
                     </div>
                 </div>
