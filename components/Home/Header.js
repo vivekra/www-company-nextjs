@@ -24,28 +24,28 @@ function Header() {
                     <li className="nav-item has-dropdown">
                     
                         <a  className="nav-link">Services</a>
-                        <ul className="submenu">
+                        {/* <ul className="submenu">
                         <li><Link href="/Service/Cloudservices"><a>Cloud Services</a></Link></li>
                         <li><Link href="/Service/Infrastructure"><a>Infrastructure Management</a></Link></li>
                         <li><Link href="/Service/Application"><a>Application Management</a></Link></li>
                         <li><Link href="/Service/Security"><a>Security Audit</a></Link></li>
                         <li><Link href="/Service/Socialmedia"><a>Social Media Marketing</a></Link></li>
                         
-                        </ul>
+                        </ul> */}
                     </li>
                     <li className="nav-item">
-                        <Link href="/About" className="nav-link"><a>About</a></Link>
+                        <Link href="#" className="nav-link"><a>About</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link href="/Staffing" className="nav-link"><a>Staffing Solutions</a></Link>
+                        <Link href="#" className="nav-link"><a>Staffing Solutions</a></Link>
                         
                     </li>
                      <li className="nav-item">
-                        <Link href="/Careers" className="nav-link"><a>Careers</a></Link>
+                        <Link href="#" className="nav-link"><a>Careers</a></Link>
                     </li>
                     
                     <li className="nav-item">
-                        <Link href="/Contact" className="custom-btn btn-small" ><a>Contact</a></Link>
+                        <Link href="#" className="custom-btn btn-small" ><a>Contact</a></Link>
                     </li>
                    
                 </ul>
