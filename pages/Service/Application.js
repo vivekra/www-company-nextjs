@@ -22,7 +22,7 @@ function Application() {
             <div className="row no-gutters align-items-center">
                 <div className="col-lg-6 text-center text-lg-left">
                     <h1>Application Management Outsourcing Services</h1>
-                    <p className="larger-txt">DigitalQ provides a comprehensive framework of principles that govern development and maintenance of its customer's applications in order to seamlessly support their business needs, improve overall efficiency, reduce recurring costs and ensure constant technology upgrades while integrating with changes in business demands.
+                    <p className="larger-txt">DigitalQ provides a comprehensive framework of principles that govern development and maintenance of its customer&apos;s applications in order to seamlessly support their business needs, improve overall efficiency, reduce recurring costs and ensure constant technology upgrades while integrating with changes in business demands.
 </p>
 
                 </div>
@@ -42,7 +42,7 @@ function Application() {
             <p className="larger-txt">Unique Benefits Outsourcing IT application management allows enterprises to focus on their core business, offering benefits across the business spectrum.</p>
 
 <br/>
-<p>Application management encompasses quite a few activities in the application's lifecycle:</p>
+<p>Application management encompasses quite a few activities in the application&apos;s lifecycle:</p>
 <br/>
 <b>Code maintenance</b>
 <br/>
@@ -54,14 +54,14 @@ function Application() {
 <br/>
 <b>Re-engineering</b>
 <br/>
-<p>Sometimes, mere code enhancements or platform migrations do not provide the answer to changing the way an application needs to behave to suit the changing needs of its users. A className=cal example is the trend towards Web-based models from desktop-based models for applications - a trend that was important enough for Microsoft to develop the .NET platform. Moving towards a Web-based model does not just mean a technology migration or increased security features, but a sea change in the business logic of the application.</p>
+<p>Sometimes, mere code enhancements or platform migrations do not provide the answer to changing the way an application needs to behave to suit the changing needs of its users. A className=cal example is the trend towards Web - based models from desktop-based models for applications - a trend that was important enough for Microsoft to develop the .NET platform. Moving towards a Web-based model does not just mean a technology migration or increased security features, but a sea change in the business logic of the application.</p>
 <br/>
 <p>Our application development and management services are designed for accelerated time-to-market and reduced costs. Our offshore center in India has talented software and domain professionals with good understanding of business processes.</p>        
         </div>
     </section>
 
   
-    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog"
+    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
         aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content white-bg">
@@ -73,7 +73,7 @@ function Application() {
 
                 <div className="modal-body d-flex align-items-center justify-content-center text-center">
                     <div className="quote-form-wrapper text-center">
-                        <h3>We’d love to talk about working together.</h3>
+                        <h3>We'd love to talk about working together.</h3>
                         <form method="POST" className="quote-form text-center row" action="contact.php#">
                             <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>

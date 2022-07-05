@@ -14,7 +14,7 @@ function Cloudservices() {
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><Link href="/">Home</li><Link/>
+                    <li className="breadcrumb-item"><Link href="/">Home</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">Infrastructure Management</li>
                 </ol>
             </div>
@@ -42,52 +42,52 @@ function Cloudservices() {
 	   {/* <section className="contact-us section-gap"> */}
         <div className="container contact-us section-gap">
           
-<h2 className="section-title">Assessment & Strategy
+<h2 className="section-title">Assessment  Strategy
 </h2>
-<p>As a Certified Global Cloud MSP (Managed Service Provider), we provide comprehensive Managed services-remote and onsite. You’ll get the benefits of a
+<p>As a Certified Global Cloud MSP (Managed Service Provider), we provide comprehensive Managed services-remote and onsite. You&apos;ll get the benefits of a
 certified IT support team at a fraction of the cost of hiring in-house</p>
 <br/>
 <ul>
-	<li>With a plethora of options, CIO’s need to formulate a comprehensive cloud strategy, and an execution plan for adopting Cloud as a business model for IT</li>
+	<li>With a plethora of options, CIO s need to formulate a comprehensive cloud strategy, and an execution plan for adopting Cloud as a business model for IT</li>
 	<li>Our Consulting experts help you formulate the principles, roadmap and an action plan for cloud adoption</li>
 	<li>Continuously trained and up-to-date on technology features that align best with business objectives, our consultants recommend the best-fit and best-of-breed models</li>
 	<li>Cloud OEM comparison and best fit strategy</li>
 	<li>Optimal migration roadmap recommendations</li>
 	<li>nvestment outlay and ROI models</li>
-	<li>Migration Models –presentation and recommendations</li>
+	<li>Migration Models presentation and recommendations</li>
 	<li>IT requirements Assessment</li>
 	
 </ul>
 <br/>
 <h2 className="section-title">Migration Services
 </h2>
-<p>DigitalQ’s Cloud Migration services help design, architecture, build and moving IT infrastructure to the optimal Public cloud, thus freeing infrastructure capital.</p>
+<p>DigitalQ s Cloud Migration services help design, architecture, build and moving IT infrastructure to the optimal Public cloud, thus freeing infrastructure capital.</p>
 <br/>
 <ul>
 	<li>With a roadmap in place, the "How" become a key question. Leveraging the right deployment model will drive the Transformation strategy</li>
-	<li>DigitalQ’s Cloud Migration services help design, architecture , build and moving IT infrastructure to the optimal Public cloud, thus freeing infrastructure capital</li>
-	<li>Aligned to your key business goals — high- availability, scale, compliance or cost-control — CK provides the Turnkey engineering service – from design to build – with trained, certified architects</li>
+	<li>DigitalQs Cloud Migration services help design, architecture , build and moving IT infrastructure to the optimal Public cloud, thus freeing infrastructure capital</li>
+	<li>Aligned to your key business goals — high- availability, scale, compliance or cost-control — CK provides the Turnkey engineering service - from design to build - with trained, certified architects</li>
 	<li>DataCenter-on-cloud presentation</li>
 	<li>Project planning for migration</li>
 	<li>Architecture</li>
 	<li>Pilot Deployments</li>
-	<li>DevOps – ‘Infrastructure-as-Code’ development</li>
+	<li>DevOps  Infrastructure-as-Code development</li>
 	<li>Go-Live cutover support</li>
 	
 </ul>
 <br/>
 <h2 className="section-title">Managed Services
 </h2>
-<p>As a Certified Global Cloud MSP (Managed Service Provider), we provide comprehensive Managed services-remote and onsite. You’ll get the benefits of a certified IT support team at a fraction of the cost of hiring in-house</p>
+<p>As a Certified Global Cloud MSP (Managed Service Provider), we provide comprehensive Managed services-remote and onsite. You&apos;ll get the benefits of a certified IT support team at a fraction of the cost of hiring in-house</p>
 <br/>
 <ul>
-	<li>Like all our clients, what you really care about is that IT supports business – in an agile, proactive and reliable model</li>
+	<li>Like all our clients, what you really care about is that IT supports business  in an agile, proactive and reliable model</li>
 	<li>As a Certified Global Cloud MSP (Managed Service Provider), we provide comprehensive Managed services- remote and onsite</li>
-	<li>With DigitalQ’s Managed Cloud Services, we provide round- the-clock service with a team of experienced engineers. You’ll get the benefits of a IT support team -at a fraction of the cost of hiring in-house</li>
-	<li>24 X7 Monitoring & Incident Management Service</li>
+	<li>With DigitalQ s Managed Cloud Services, we provide round- the-clock service with a team of experienced engineers. You&apos;ll get the benefits of a IT support team -at a fraction of the cost of hiring in-house</li>
+	<li>24 X7 Monitoring  Incident Management Service</li>
 	<li>Cloud Operations, DevOps, DataOps, SecOps, TechOps</li>
 	<li>SLA-driven Cloud IT Support</li>
-	<li>Migration Models –presentation and recommendations</li>
+	<li>Migration Models presentation and recommendations</li>
 	<li>Self-service platform as SaaS</li>
 	<li>Automated reports, dashboards</li>
 	
@@ -95,7 +95,7 @@ certified IT support team at a fraction of the cost of hiring in-house</p>
 <br/>
 <h2 className="section-title">DevOps
 </h2>
-<p>We adopt a pragmatic approach that helps clients drive DevOps adoption in an integrated way. We enable intelligent automation on platforms of our clients’ choice and make improvements as required</p>
+<p>We adopt a pragmatic approach that helps clients drive DevOps adoption in an integrated way. We enable intelligent automation on platforms of our clients&apos; choice and make improvements as required</p>
 <br/>
 <ul>
 	<li>Version Control for All Production Artifacts</li>

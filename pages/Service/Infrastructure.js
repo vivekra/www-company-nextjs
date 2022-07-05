@@ -22,9 +22,9 @@ function Infrastructure() {
         <div className="container">
             <div className="row no-gutters align-items-center">
                 <div className="col-lg-6 text-center text-lg-left">
-                    <h1>Cloud Computing – Azure, AWS and Google</h1>
+                    <h1>Cloud Computing - Azure, AWS and Google</h1>
                     <p className="larger-txt">DigitalQ differentiates in this space by not forcing the customer to a Cloud Service Provider
-(CSP) and it is often referred as ‘Vendor Lock-In’ but our Cloud Assessment Services (CAS)
+(CSP) and it is often referred as &apos;Vendor Lock-In&apos; but our Cloud Assessment Services (CAS)
 team chose the right CSP trajectory by answering the right questions.</p>
 
                 </div>
@@ -43,7 +43,7 @@ team chose the right CSP trajectory by answering the right questions.</p>
           
 <h2 className="section-title">Infrastructure management outsourcing services
 </h2>
-<p>DigitalQ assumes responsibility for managing the customer's IT infrastructure. In some cases this involves transferring the ownership of the customer's IT and personnel assets to DigitalQ.</p>
+<p>DigitalQ assumes responsibility for managing the customer&apos;s IT infrastructure. In some cases this involves transferring the ownership of the customer&apos;s IT and personnel assets to DigitalQ.</p>
 <br/>
 The relationships are usually based on long-term contracts and delivered on a fixed fee basis.
 <br/> 
@@ -71,7 +71,7 @@ s/chedule a free pre-assessment, please write to us at cloudcas@digitalq.co.in</
     </section>
 
   
-    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog"
+    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
         aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content white-bg">
@@ -83,7 +83,7 @@ s/chedule a free pre-assessment, please write to us at cloudcas@digitalq.co.in</
 
                 <div className="modal-body d-flex align-items-center justify-content-center text-center">
                     <div className="quote-form-wrapper text-center">
-                        <h3>We’d love to talk about working together.</h3>
+                        <h3>We'd love to talk about working together.</h3>
                         <form method="POST" className="quote-form text-center row" action="contact.php#">
                             <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>

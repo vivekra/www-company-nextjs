@@ -6,22 +6,7 @@ function Location() {
     data-scroll-offset-mobile="75">
     <div className="container">
         <h2 className="section-title text-center">Our Location</h2>
-      <ul className="nav nav-tabs location-tab justify-content-center" role="tablist">
-            <li className="nav-item">
-                <a className="nav-link active" data-toggle="tab" href="contact.php#location-tab-1">Chennai</a>
-            </li>
-        
-            <li className="nav-item">
-                <a className="nav-link" data-toggle="tab" href="contact.php#location-tab-2">Maryland</a>
-            </li> 
-            <li className="nav-item">
-                <a className="nav-link" data-toggle="tab" href="contact.php#location-tab-3">Colombo</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" data-toggle="tab" href="contact.php#location-tab-4">Chester</a>
-            </li>
-            
-        </ul>
+   
 
 
         <div className="contact-info">

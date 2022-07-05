@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Termsndcondition() {
   return (
@@ -17,13 +18,13 @@ All content present on this site is the exclusive property of DigitalQ. The soft
 <br></br>
 2. By using the Site, you agree to follow and be bound by the following terms and conditions concerning your use of the Site. DigitalQ may revise the Terms of Use at any time without notice to you. Areas of the Site may have different terms of use posted. If there is a conflict between the Terms of Use and terms of use posted for a specific area of the Site, the latter shall have precedence with respect to your use of that area of the Site.
 <br></br>
-3. DigitalQ may terminate User's access at any time for any reason. The provisions regarding to disclaimer of warranty, accuracy of information and indemnification shall survive such termination. DigitalQ may monitor access to the Site.
+3. DigitalQ may terminate User&apos;s access at any time for any reason. The provisions regarding to disclaimer of warranty, accuracy of information and indemnification shall survive such termination. DigitalQ may monitor access to the Site.
 <br></br>
-4. DigitalQ shall have no responsibility for any damage to User's computer system or loss of data that result from the download of any content, materials, information from the Site.
+4. DigitalQ shall have no responsibility for any damage to User&apos;s computer system or loss of data that result from the download of any content, materials, information from the Site.
 <br></br>
 5. DigitalQ may change or discontinue any aspect of its website at any time, including, its content or features. DigitalQ reserves the right to change the terms and conditions applicable to use of the Site. Such changes shall be effective immediately upon notice, which shall be placed on the Site.
 <br></br>
-6. In no event will Digtial-Q be liable for damages of any kind, including without limitation, direct, incidental or consequential damages (including, but not limited to, damages for lost profits, business interruption and loss of programs or information) arising out of the use of or inability to use DigitalQ's website, or any information provided on the website, or any claim attributable to errors, omissions or other inaccuracies or interpretations thereof. Some jurisdictions do not allow the limitation or exclusion of liability. Accordingly, some of the above limitations may not apply to the User.</p>
+6. In no event will Digtial-Q be liable for damages of any kind, including without limitation, direct, incidental or consequential damages (including, but not limited to, damages for lost profits, business interruption and loss of programs or information) arising out of the use of or inability to use DigitalQ&apos;s website, or any information provided on the website, or any claim attributable to errors, omissions or other inaccuracies or interpretations thereof. Some jurisdictions do not allow the limitation or exclusion of liability. Accordingly, some of the above limitations may not apply to the User.</p>
             <div className="quote-form-wrapper contact-form-wrapper text-center grid-wrapper">
               
                    
@@ -33,7 +34,7 @@ All content present on this site is the exclusive property of DigitalQ. The soft
     </section>
 
   
-    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog"
+    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
         aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content white-bg">
@@ -45,7 +46,7 @@ All content present on this site is the exclusive property of DigitalQ. The soft
 
                 <div className="modal-body d-flex align-items-center justify-content-center text-center">
                     <div className="quote-form-wrapper text-center">
-                        <h3>We’d love to talk about working together.</h3>
+                        <h3>We&apos;d love to talk about working together.</h3>
                         <form method="POST" className="quote-form text-center row" action="contact.php#">
                             <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>

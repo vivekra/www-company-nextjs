@@ -40,7 +40,7 @@ function Careers() {
 <section className="contact-us section-gap">
 <div className="container">
     <h2 className="section-title text-center">Why Work Here?</h2>
-    <p className="larger-txt text-center">We think we’ve got the best team in the world, but you might be the next greatest thing to happen to us.</p>
+    <p className="larger-txt text-center">We think we&apos;ve got the best team in the world, but you might be the next greatest thing to happen to us.</p>
     <div className="quote-form-wrapper contact-form-wrapper text-center grid-wrapper">
       
            
@@ -69,7 +69,7 @@ aria-hidden="true">
 
         <div className="modal-body d-flex align-items-center justify-content-center text-center">
             <div className="quote-form-wrapper text-center">
-                <h3>We’d love to talk about working together.</h3>
+                <h3>We&apos;d love to talk about working together.</h3>
                 <form method="POST" className="quote-form text-center row" action="contact.php#">
                     <div className="col-lg-6">
                         <input type="text" name="fname" placeholder="Name"/>

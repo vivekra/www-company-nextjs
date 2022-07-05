@@ -40,7 +40,7 @@ If you have questions or suggestions concerning our privacy policy, please conta
     </section>
 
   
-    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog"
+    <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
         aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content white-bg">
@@ -52,7 +52,7 @@ If you have questions or suggestions concerning our privacy policy, please conta
 
                 <div className="modal-body d-flex align-items-center justify-content-center text-center">
                     <div className="quote-form-wrapper text-center">
-                        <h3>We’d love to talk about working together.</h3>
+                        <h3>We&apos;d love to talk about working together.</h3>
                         <form method="POST" className="quote-form text-center row" action="contact.php#">
                             <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>

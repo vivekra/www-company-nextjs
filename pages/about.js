@@ -118,9 +118,9 @@ Hire, train, and augment your own Operations Staff. We've met a lot of excellent
                     <div className="col-lg-5 offset-lg-1">
                         <div className="features-content">
                             <h2 className="section-title">What does it cost?</h2>
-                            <p>We all learned the lessons during the dot-com boom about keeping an eye on the bottom line. The high cost of hiring the best talent drives many startups to cut corners on the infrastructure, or to have people who aren't experts "wear many hats." DigitalQ helps drive that cost down by providing a pool of talented people who work on the problems you have. Need a Systems Architect to help design your deployment system on Monday and a Network Engineer on Tuesday? We've got it covered.
+                            <p>We all learned the lessons during the dot-com boom about keeping an eye on the bottom line. The high cost of hiring the best talent drives many startups to cut corners on the infrastructure, or to have people who aren&apos;t experts "wear many hats." DigitalQ helps drive that cost down by providing a pool of talented people who work on the problems you have. Need a Systems Architect to help design your deployment system on Monday and a Network Engineer on Tuesday? We've got it covered.
 
-When the time comes to hire full time Operations staff, we help with that too. We'll help recruit, hire, and train the right team. Once they are in place, we'll be around to help out when they need it.</p>
+When the time comes to hire full time Operations staff, we help with that too. We&apos;ll help recruit, hire, and train the right team. Once they are in place, we'll be around to help out when they need it.</p>
 
 
 
@@ -151,7 +151,7 @@ When the time comes to hire full time Operations staff, we help with that too. W
                     <div className="col-lg-5">
                         <div className="features-content">
                             <h2 className="section-title">We can help</h2>
-                            <p>If we're not the experts in the problems you face, we'll tell you. It's important to us that your business be successful, and that means making sure you get the right advice at the right time. We know consultants in a wide variety of technologies and we'll be happy to help you get in touch with them.</p>
+                            <p>If we&apos;re not the experts in the problems you face, we&apos;ll tell you. It&apos;s important to us that your business be successful, and that means making sure you get the right advice at the right time. We know consultants in a wide variety of technologies and we&apos;ll be happy to help you get in touch with them.</p>
 
 
 
@@ -194,7 +194,7 @@ When the time comes to hire full time Operations staff, we help with that too. W
                         </h4>
                     </div>
                     <p>To be fair, in certain contexts, your professional bio does need to be more formal, like Mr.
-                        Erickson's up there. But in many cases, writing a bio that's readable even conversational is
+                        Erickson&apos;s up there. But in many cases, writing a bio that&apos;s readable even conversational is
                         actually a really good thing. But once created, this bio should represent who you are in the
                         eyes.</p>
 
