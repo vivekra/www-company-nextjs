@@ -1,18 +1,20 @@
 import React from 'react'
 import Location from '../components/Home/Location'
+import Image from 'next/image'
+import Header from '../components/Home/Header'
+import Footer from '../components/Home/Footer'
+import Link from 'next/link'
 
-
-
-function contact() {
+function Contact() {
   return (
     <div>
-
+      <Header/>
 <div className="banner d-flex align-items-center light-grey-bg">
     
     <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
         <div className="container">
             <ol className="breadcrumb">
-            <li className="breadcrumb-item"><a href="http://localhost:3000/">Home</a></li>
+            <li className="breadcrumb-item"><Link href="http://localhost:3000/">Home</Link></li>
 
                 <li className="breadcrumb-item active" aria-current="page">Contact</li>
             </ol>
@@ -30,7 +32,7 @@ function contact() {
 
             <div className="col-lg-6">
                 <div className="img-container text-center text-lg-right">
-                    <img src="assets/images/banner/contact3.svg" alt="Contact banner image" className="img-fluid"/>
+                    <Image src="/assets/images/banner/contact3.svg" alt="Contact banner image" className="img-fluid" width={630} height={330}/>
                 </div>
             </div>
         </div>
@@ -64,31 +66,30 @@ Your feedback is important to us in order to provide the very best service possi
                 </div>
                 <div className="col-lg-12">
                     <textarea placeholder="Message" name="message"></textarea>
-                    {/* <p className='submit-loading-img' style="display:none"><img src="assets/images/ajax-loader.gif" alt="loading" /></p> */}
 		    <button type="submit" className="custom-btn secondary-btn" id="contact_us">Contact Us</button>
 		    
                     <div className="social-icons-wrapper d-flex justify-content-center">
                         <p>Follow us:</p>
                         <ul className="social-icons">
                              <li>
-                                <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
+                                <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook-f"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
+                                <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-twitter"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener">
+                                <Link href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/dq.india" target="_blank" rel="noopener">
+                                <Link href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
-                                </a>
+                                </Link>
                             </li>
                         </ul> 
                     </div> 
@@ -101,7 +102,7 @@ Your feedback is important to us in order to provide the very best service possi
 
 <Location />
 
- <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog" aria-hidden="true">
+ <div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog" aria-hidden="true">
     <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="modal-content white-bg">
             <div className="modal-header">
@@ -134,24 +135,24 @@ Your feedback is important to us in order to provide the very best service possi
                                 <p>Follow us:</p>
                                 <ul className="social-icons">
                                     <li>
-                                <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
+                                <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook-f"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
+                                <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-twitter"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener">
+                                <Link href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-linkedin"></i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/dq.india" target="_blank" rel="noopener">
+                                <Link href="https://www.instagram.com/dq.india" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
-                                </a>
+                                </Link>
                             </li>
                                 </ul>
                             </div>
@@ -163,93 +164,11 @@ Your feedback is important to us in order to provide the very best service possi
     </div>
 </div>
 
-    <footer className="page-footer dark-footer-bg">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-4">
-                    <div className="footer-widget widget-about">
-					
-                     <a href="index.php"><img className="footer-logo" src="assets/images/dq-logo-bottom.svg" alt="footer logo"
-                            height="16"/></a>
-                    <p>Thanks for visiting us. our services will promote your brand, business and our products, tools will enchance your 
-                        growth in your business domain.</p>
-                       
-                        <ul className="social-icons">
-                            <li>
-                                <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
-                                    <i className="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
-                                    <i className="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://ca.linkedin.com/company/digitalq-information-services-pvt-ltd" target="_blank" rel="noopener">
-                                    <i className="fab fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/dq.india" target="_blank" rel="noopener">
-                                    <i className="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                        
-                    </div>
-					
-                </div>
-				
+   
 
-                <div className="col-lg-3">
-                    <div className="footer-widget">
-                        <h5 className="footer-nav-title">Services</h5>
-                        <ul className="footer-nav dynamic-nav">
-							<li><a href="infrastructure-management.php">Infrastructure Management</a></li>
-							<li><a href="application-management.php">Application Management</a></li>
-							<li><a href="staff-augmentation.php">Staff Augmentation</a></li>
-							<li><a href="security-audit.php">Security Audit</a></li>
-							<li><a href="internet-marketing.php">Social Media Marketing</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="col-lg-3">
-                    <div className="footer-widget">
-                        <h5 className="footer-nav-title">Support</h5>
-                        <ul className="footer-nav dynamic-nav">
-							 <li><a href="about-overview.php">About us</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><a href="privacy.php">Privacy Policy</a></li>
-                            <li><a href="terms.php">Terms &amp; Conditions</a></li>
-			     <li><a href="refund-policy.php">Refund &amp; Cancellation Policy</a></li>	
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="col-lg-2">
-                    <div className="footer-widget">
-                        <h5 className="footer-nav-title">Solutions</h5>
-                        <ul className="footer-nav dynamic-nav">
-                            <li><a href="opensource.php">Open Source Solution</a></li>
-                           
-							<li><a href="https://dqserv.com">Restaurant POS</a></li>
-							<li><a href="https://dqserv.com">Customer Issue Tracking System</a></li>
-                            <li><a href="https://dqserv.com">Lead Management System</a></li>
-                           
-                        </ul>
-                    </div>
-                </div>
-            </div>
-                        <p className="copywrite-txt text-center" >© 2020 <a href="https://digitalq.co.in">DigitalQ Information Services Pvt Ltd</a>. All Rights
-                            Reserved.</p>
-        </div>
-    </footer>
-
-
+<Footer />
     </div>
   )
 }
 
-export default contact;
+export default Contact;

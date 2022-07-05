@@ -1,16 +1,18 @@
 import React from 'react'
 import Footer from '../components/Home/Footer'
-
-function careers() {
+import Image from 'next/image'
+import Header from '../components/Home/Header'
+import Link from 'next/link'
+function Careers() {
   return (
     <div>
-        
+        <Header/> 
     <div className="banner d-flex align-items-center light-grey-bg">
 
 <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
     <div className="container">
         <ol className="breadcrumb">
-        <li className="breadcrumb-item"><a href="http://localhost:3000/">Home</a></li>
+        <li className="breadcrumb-item"><Link href="http://localhost:3000/">Home</Link></li>
             <li className="breadcrumb-item active" aria-current="page">Careers</li>
         </ol>
     </div>
@@ -28,7 +30,7 @@ function careers() {
 
         <div className="col-lg-6">
             <div className="img-container text-center text-lg-right">
-                <img src="assets/images/banner/careers.svg" alt="Careers banner image" className="img-fluid"/>
+                <Image src="/assets/images/banner/careers.svg" alt="Careers banner image" className="img-fluid" width={630} height={469}/>
             </div>
         </div>
     </div>
@@ -38,15 +40,15 @@ function careers() {
 <section className="contact-us section-gap">
 <div className="container">
     <h2 className="section-title text-center">Why Work Here?</h2>
-    <p className="larger-txt text-center">We think we’ve got the best team in the world, but you might be the next greatest thing to happen to us.</p>
+    <p className="larger-txt text-center">We think we&apos;ve got the best team in the world, but you might be the next greatest thing to happen to us.</p>
     <div className="quote-form-wrapper contact-form-wrapper text-center grid-wrapper">
       
            
             <div className="col-lg-12">
                 
                 
-             <a href="careers.php#" className="custom-btn secondary-btn" data-toggle="modal"
-                    data-target="#quote-modal">Apply</a>
+             <Link href="careers.php#" className="custom-btn secondary-btn" data-toggle="modal"
+                    data-target="#quote-modal">Apply</Link>
                
             </div>
        
@@ -55,7 +57,7 @@ function careers() {
 </section>
 
 
-<div className="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog"
+<div className="modal fade full-width-modal quote-modal" id="quote-modal" tabIndex="-1" role="dialog"
 aria-hidden="true">
 <div className="modal-dialog modal-dialog-centered" role="document">
     <div className="modal-content white-bg">
@@ -67,7 +69,7 @@ aria-hidden="true">
 
         <div className="modal-body d-flex align-items-center justify-content-center text-center">
             <div className="quote-form-wrapper text-center">
-                <h3>We’d love to talk about working together.</h3>
+                <h3>We&apos;d love to talk about working together.</h3>
                 <form method="POST" className="quote-form text-center row" action="contact.php#">
                     <div className="col-lg-6">
                         <input type="text" name="fname" placeholder="Name"/>
@@ -89,19 +91,19 @@ aria-hidden="true">
                             <p>Follow us:</p>
                             <ul className="social-icons">
                                 <li>
-                                    <a href="http://www.facebook.com/dqindia" target="_blank" rel="noopener">
+                                    <Link href="http://www.facebook.com/dqindia" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-facebook-f"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="http://twitter.com/dqindia" target="_blank" rel="noopener">
+                                    <Link href="http://twitter.com/dqindia" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-twitter"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="http://youtube.com/dq.india" target="_blank" rel="noopener">
+                                    <Link href="http://youtube.com/dq.india" target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-instagram"></i>
-                                    </a>
+                                    </Link>
                                 </li>
                               
                             </ul>
@@ -119,4 +121,4 @@ aria-hidden="true">
   )
 }
 
-export default careers
+export default Careers

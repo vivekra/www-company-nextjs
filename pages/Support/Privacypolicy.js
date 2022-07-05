@@ -1,54 +1,42 @@
 import React from 'react'
-import Image from 'next/image'
-import Header from '../../components/Home/Header'
 import Link from 'next/link'
-function Security() {
+function Privacypolicy() {
   return (
     <div>
-       <Header/>
-    <div className="banner d-flex align-items-center light-grey-bg">
-
-        <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
-            <div className="container">
-                <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><Link href="/">Home</Link></li>
-                    <li className="breadcrumb-item active" aria-current="page">Security Audits</li>
-                </ol>
-            </div>
-        </nav>
+  
 
 
-        <div className="container">
-            <div className="row no-gutters align-items-center">
-                <div className="col-lg-6 text-center text-lg-left">
-                    <h1>Security Audits
-</h1>
-                    <p className="larger-txt">As part of our system administration services we offer ongoing security audits at a low monthly fee. We receive alerts from bugtraq and other security lists and match these alerts against a list of installed software for each server that we audit. When we find an alert that matches, we evaluate the need for upgrading the software and notify you of the risks involved. We can also perform automatic scans to verify open ports and to find weak passwords.</p>
-
-                </div>
-
-                <div className="col-lg-6">
-                    <div className="img-container text-center text-lg-right">
-                        <Image src="/assets/images/banner/security.svg" alt="Security banner image" className="img-fluid" width={630} height={475}/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	
 	   <section className="contact-us section-gap">
         <div className="container">
-            <h2 className="section-title">Network Vulnerability Services</h2>
-            <p className="larger-txt">Network Security Auditing is the first step in truly securing a computer or network environment. The purpose of a network security audit is to ensure that a company has followed the necessary steps to protect data and to track access for accountability.</p>
-<br/>
+            <h2 className="section-title">Privacy Policy</h2>
+            <p className="larger-txt">
 
-Security audits involve a set of periodic, pro-active compliance and assurance activities that help assess the security of the IT infrastructure of your organization. The audit encompasses security architecture, policy and vulnerability assessment.
-<br/>
-Our network security audits are performed on entire networks by ethical hackers known as white hat hackers to assess potential network vulnerabilities. Audits may also be performed on a portion of the computer network Using DigitalQ&apos;s ethical hacking team can simulate an attack without interrupting crucial network services that will not only test the network but also staff awareness and response based on the assessment. DigitalQ will create a detailed a report of vulnerabilities and proposed best practices for your network environment.
-<br/>
-To supplement the network security audit DigitalQ will review and /or draft computer guidelines, policies and procedures. The establishment of clear policies and procedures will help protect the company by advising employees of expected conduct with respect to proprietary information and use of company equipment.</div>
-           
-       
+<b>Information Collection</b>
+<br></br>
+DigitalQ uses cookies, IP addresses, and browser information. This information provides us with insight into how effective certain areas of our Web site are to users and how we might improve it.
+<br></br>
+DigitalQ collects the information you provide when you send us e-mail and when you register.
+<br></br>
+<b>Sharing Collected Information</b>
+<br></br>
+DigitalQ shares information with our partners ONLY for the sole purpose of better supporting our current and future customers.
+<br></br>
+<b>Third-Party Sites</b>
+<br></br>
+Please be aware that other Web sites that may be accessed through our site may collect personally identifiable information about you. DigitalQ does not share your personal information with those Web sites and is not responsible for their privacy practices. Please check the applicable Privacy Policy of those sites.
+<br></br>
+<b>Security</b>
+<br></br>
+No site can guarantee that data transmission over the Internet is 100% secure. However, this Web site has security measures in place to protect against the loss, misuse and alteration of the information under our control.
+<br></br>
+<b>Our Consent to this Privacy Policy</b>
+<br></br>
+By using this Web site, you agree to this Privacy Policy. This Policy appears in its completed form and supersedes any earlier version. This Privacy Policy is subject to change without notice; updates to our Privacy Policy will be posted here. This Privacy Policy is effective January 1, 2008.
+<br></br>
+<b>Questions or Suggestions</b>
+<br></br>
+If you have questions or suggestions concerning our privacy policy, please contact us.</p>
+        </div>
     </section>
 
   
@@ -109,11 +97,15 @@ To supplement the network security audit DigitalQ will review and /or draft comp
                 </div>
             </div>
         </div>
-  
-  
     </div>
+ 
+
+
+	    
+   
+
     </div>
-)
+  )
 }
 
-export default Security;
+export default Privacypolicy
