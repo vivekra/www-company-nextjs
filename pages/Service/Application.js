@@ -49,7 +49,7 @@ function Application() {
 <p>Minor enhancements and code stabilization (the formal term for bug-fixing) are a critical part of managing an application post-release</p>
 <br/>
 <b>Migrations</b>
-<br/> 
+<br/>
 <p>Changing market conditions, or in-house policy changes, often necessitate the migration of applications to different platforms, migrate the databases (along with the data) to different databases, change user interfaces, etc.</p>
 <br/>
 <b>Re-engineering</b>
@@ -73,7 +73,7 @@ function Application() {
 
                 <div className="modal-body d-flex align-items-center justify-content-center text-center">
                     <div className="quote-form-wrapper text-center">
-                        <h3>We'd love to talk about working together.</h3>
+                        <h3>We&apos;d love to talk about working together.</h3>
                         <form method="POST" className="quote-form text-center row" action="contact.php#">
                             <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>

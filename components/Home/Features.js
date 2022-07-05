@@ -47,11 +47,11 @@ function Features() {
                         <h2 className="section-title">What we do ?</h2>
                         <p>From the outset, DigitalQ has been associated with the provision of reliable and effective IT solutions to business.
 
-                            DigitalQ brings together technical innovation and a sound understanding of our clients' business needs to keep their IT systems running smoothly, leaving them to get on with their business.
+                            DigitalQ brings together technical innovation and a sound understanding of our clients&apos; business needs to keep their IT systems running smoothly, leaving them to get on with their business.
 
-                            We take the stress out of computing, and we've got the skills and experience to cover everything from telephones to networks, PCs to servers, web development to hosted web applications.
+                            We take the stress out of computing, and we&apos;ve got the skills and experience to cover everything from telephones to networks, PCs to servers, web development to hosted web applications.
 
-                            Whether you're looking to improve the management of your existing systems or to do something new, DigitalQ can make it easy.</p>
+                            Whether you&apos;re looking to improve the management of your existing systems or to do something new, DigitalQ can make it easy.</p>
 
 
 

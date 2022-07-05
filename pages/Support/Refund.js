@@ -23,7 +23,7 @@ function Refund() {
             <div className="row no-gutters align-items-center">
                 <div className="col-lg-6 text-center text-lg-left">
                     <h1>Refund and Cancellation Policy</h1>
-                    <p className="larger-txt"> DigitalQ provides hosting  services at Internet service providers in India and abroad. This  includes purchase, rental or installation of a server or virtual server  at the service provider, and remote management of the server or  purchased services thereafter. Our hosting service fills the need for  Internet presence support where most of the ISP's and server rental  companies leave off. We manage you operating system, DNS, applications  and backups. The conectivity providers are usually not set up to  provide this service.</p>
+                    <p className="larger-txt"> DigitalQ provides hosting  services at Internet service providers in India and abroad. This  includes purchase, rental or installation of a server or virtual server  at the service provider, and remote management of the server or  purchased services thereafter. Our hosting service fills the need for  Internet presence support where most of the ISP&apos;s and server rental  companies leave off. We manage you operating system, DNS, applications  and backups. The conectivity providers are usually not set up to  provide this service.</p>
 
                 </div>
 
@@ -118,7 +118,7 @@ The customer must pay a fee equal to 50% of the total Annual Term (“Cancellati
 
                 <div className="modal-body d-flex align-items-center justify-content-center text-center">
                     <div className="quote-form-wrapper text-center">
-                        <h3>We'd love to talk about working together.</h3>
+                        <h3>We&apos;d love to talk about working together.</h3>
                         <form method="POST" className="quote-form text-center row" action="contact.php#">
                             <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>

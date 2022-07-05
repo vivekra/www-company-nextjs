@@ -44,7 +44,7 @@ function Security() {
 
 Security audits involve a set of periodic, pro-active compliance and assurance activities that help assess the security of the IT infrastructure of your organization. The audit encompasses security architecture, policy and vulnerability assessment.
 <br/>
-Our network security audits are performed on entire networks by ethical hackers known as white hat hackers to assess potential network vulnerabilities. Audits may also be performed on a portion of the computer network Using DigitalQ's ethical hacking team can simulate an attack without interrupting crucial network services that will not only test the network but also staff awareness and response based on the assessment. DigitalQ will create a detailed a report of vulnerabilities and proposed best practices for your network environment.
+Our network security audits are performed on entire networks by ethical hackers known as white hat hackers to assess potential network vulnerabilities. Audits may also be performed on a portion of the computer network Using DigitalQ&apos;s ethical hacking team can simulate an attack without interrupting crucial network services that will not only test the network but also staff awareness and response based on the assessment. DigitalQ will create a detailed a report of vulnerabilities and proposed best practices for your network environment.
 <br/>
 To supplement the network security audit DigitalQ will review and /or draft computer guidelines, policies and procedures. The establishment of clear policies and procedures will help protect the company by advising employees of expected conduct with respect to proprietary information and use of company equipment.</div>
            

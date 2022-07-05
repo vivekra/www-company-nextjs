@@ -81,7 +81,7 @@ No single individual can be an expert in every possible technology, or have expe
                     <div className="col-lg-5">
                         <div className="features-content">
                             <h2 className="section-title">How we do it?</h2>
-                            <p>First, we get a feel for what your goals are and how your product will work; we can't help you out of the muck until everyone knows what needs to be done. Then, we cover all the bases by starting at the bottom of the infrastructure and working our way up.
+                            <p>First, we get a feel for what your goals are and how your product will work; we can&apos;t help you out of the muck until everyone knows what needs to be done. Then, we cover all the bases by starting at the bottom of the infrastructure and working our way up.
 
 Work on the Cloud or Corporate Infrastructure, making sure you have all the basic services you need to be successful. (Things like Email, Source Control, Identity Management, File Sharing, Bug Tracking and Collaboration tools.)
  
@@ -89,10 +89,10 @@ Work on the Cloud or Corporate Infrastructure, making sure you have all the basi
 Design your Production Infrastructure. This covers things like selecting an Operating System, creating a Build System, implementing Configuration Management and automating your application Deployment.
  
 
-Provide Support and Intelligence. This means making Monitoring and Trending essential parts of the system. We'll work with you to identify what the key metrics are for your application, and build systems that alert you in a timely manner when it has issues.
+Provide Support and Intelligence. This means making Monitoring and Trending essential parts of the system. We&apos;ll work with you to identify what the key metrics are for your application, and build systems that alert you in a timely manner when it has issues.
  
 
-Hire, train, and augment your own Operations Staff. We've met a lot of excellent people over the years, and we love to hook them up with awesome companies.</p>
+Hire, train, and augment your own Operations Staff. We&apos;ve met a lot of excellent people over the years, and we love to hook them up with awesome companies.</p>
 
 
 
@@ -118,9 +118,9 @@ Hire, train, and augment your own Operations Staff. We've met a lot of excellent
                     <div className="col-lg-5 offset-lg-1">
                         <div className="features-content">
                             <h2 className="section-title">What does it cost?</h2>
-                            <p>We all learned the lessons during the dot-com boom about keeping an eye on the bottom line. The high cost of hiring the best talent drives many startups to cut corners on the infrastructure, or to have people who aren&apos;t experts "wear many hats." DigitalQ helps drive that cost down by providing a pool of talented people who work on the problems you have. Need a Systems Architect to help design your deployment system on Monday and a Network Engineer on Tuesday? We've got it covered.
+                            <p>We all learned the lessons during the dot-com boom about keeping an eye on the bottom line. The high cost of hiring the best talent drives many startups to cut corners on the infrastructure, or to have people who aren&apos;t experts &apos;wear many hats.&apos; DigitalQ helps drive that cost down by providing a pool of talented people who work on the problems you have. Need a Systems Architect to help design your deployment system on Monday and a Network Engineer on Tuesday? We&apos;ve got it covered.
 
-When the time comes to hire full time Operations staff, we help with that too. We&apos;ll help recruit, hire, and train the right team. Once they are in place, we'll be around to help out when they need it.</p>
+When the time comes to hire full time Operations staff, we help with that too. We&apos;ll help recruit, hire, and train the right team. Once they are in place, we&apos;ll be around to help out when they need it.</p>
 
 
 

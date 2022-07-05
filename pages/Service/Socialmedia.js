@@ -42,13 +42,13 @@ function Socialmedia() {
 Our search engine optimization solution aims at increasing the visibility of your site on the World Wide Web. Search engine optimization strategies, if not undertaken correctly, can incur heavy loses to your business and site. Search Engine Optimization is crucial to the success of your online business in this day and age! We can help you with your search engine marketing concerns. This is where we step in with our team of professionals to do the work for you. At DigitalQ, we have trained and qualified professionals to handle all of the search engine optimization work for you.
 <br/>
 <b>Website Assessment</b><br/>
-Very often a marketing manager wakes up and realizes that he or she has not clue about the standings of their site in the online world. Are they ready to compete with other sites on Google or are they just throwing good money after bad? It is at this point that a good marketing manager should make the decision to get to the bottom line in regards of the website's ability to compete openly. And this is the job of Website Assessment.
+Very often a marketing manager wakes up and realizes that he or she has not clue about the standings of their site in the online world. Are they ready to compete with other sites on Google or are they just throwing good money after bad? It is at this point that a good marketing manager should make the decision to get to the bottom line in regards of the website&apos;s ability to compete openly. And this is the job of Website Assessment.
 <br/>
 <b>SEO Consulting</b><br/>
 Our search engine optimization solution aims at increasing the visibility of your site on the World Wide Web. Search engine optimization strategies, if not undertaken correctly, can incur heavy loses to your business and site. Search Engine Optimization is crucial to the success of your online business in this day and age! We can help you with your search engine marketing concerns. This is where we step in with our team of professionals to do the work for you. At Comet, we have trained and qualified professionals to handle all of the search engine optimization work for you.
 <br/>
 <b>Hire A Dedicated SEO Team</b><br/>
-When you hire a dedicated SEO team from our company you have a true solution in place to do a great deal of heavy lifting at a fraction of the. You will be freed up to concentrate on the results instead of worrying if your workers have a cafeteria, toiletries and air conditioning. Let's face it, running a business is hard work and truly only 80 percent of the day is efficient with the other 20 percent dedicated to handling infrastructure details. We take all of the inefficiency out of the equation.</p>
+When you hire a dedicated SEO team from our company you have a true solution in place to do a great deal of heavy lifting at a fraction of the. You will be freed up to concentrate on the results instead of worrying if your workers have a cafeteria, toiletries and air conditioning. Let&apos;s face it, running a business is hard work and truly only 80 percent of the day is efficient with the other 20 percent dedicated to handling infrastructure details. We take all of the inefficiency out of the equation.</p>
            
 <br/>
 <p>
@@ -65,7 +65,7 @@ Weblog, also popularly known as Blog, is a leading Internet Marketing tool which
 Though not as much popular as the blogs are, white paper is also considered to be an powerful internet marketing tool and, is designed to promote your business as a leader in a specific field or industry. White papers being typically distributed after receiving the contact information from a prospective customer are extremely effective in generating leads.
 <br/>
 <b>Pay Per Click</b><br/>
-PPC Campaigning is an effective tool of Internet Marketing where the webmasters bid for certain positions in the sponsored listing of Google. Usually, the bidding is carried out for certain keywords. For example, if a company is selling 'Vacuum Cleaner' then it would use keywords such as 'Hoover' which are frequently used by their prospective online customers. As per the guidelines of the search engines, as a webmaster you have to pay only when a visitor clicks on you add. Google AdWords and Yahoo Search Marketing (formerly known as Overture) are currently the largest providers of PPC Campaigning Services. At DigitalQ, the SEO company in India, we choose the right PPC keywords, craft and place ads for increasing you Rate On Investment.</p>
+PPC Campaigning is an effective tool of Internet Marketing where the webmasters bid for certain positions in the sponsored listing of Google. Usually, the bidding is carried out for certain keywords. For example, if a company is selling &apos;Vacuum Cleaner&apos; then it would use keywords such as &apos;Hoover&apos; which are frequently used by their prospective online customers. As per the guidelines of the search engines, as a webmaster you have to pay only when a visitor clicks on you add. Google AdWords and Yahoo Search Marketing (formerly known as Overture) are currently the largest providers of PPC Campaigning Services. At DigitalQ, the SEO company in India, we choose the right PPC keywords, craft and place ads for increasing you Rate On Investment.</p>
 <br/>		  
 		   
         </div>
@@ -84,7 +84,7 @@ PPC Campaigning is an effective tool of Internet Marketing where the webmasters 
 
                 <div className="modal-body d-flex align-items-center justify-content-center text-center">
                     <div className="quote-form-wrapper text-center">
-                        <h3>We'd love to talk about working together.</h3>
+                        <h3>We&apos;d love to talk about working together.</h3>
                         <form method="POST" className="quote-form text-center row" action="contact.php#">
                             <div className="col-lg-6">
                                 <input type="text" name="fname" placeholder="Name"/>

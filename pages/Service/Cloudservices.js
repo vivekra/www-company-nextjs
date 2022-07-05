@@ -64,7 +64,7 @@ certified IT support team at a fraction of the cost of hiring in-house</p>
 <p>DigitalQ s Cloud Migration services help design, architecture, build and moving IT infrastructure to the optimal Public cloud, thus freeing infrastructure capital.</p>
 <br/>
 <ul>
-	<li>With a roadmap in place, the "How" become a key question. Leveraging the right deployment model will drive the Transformation strategy</li>
+	<li>With a roadmap in place, the &apos;How&apos; become a key question. Leveraging the right deployment model will drive the Transformation strategy</li>
 	<li>DigitalQs Cloud Migration services help design, architecture , build and moving IT infrastructure to the optimal Public cloud, thus freeing infrastructure capital</li>
 	<li>Aligned to your key business goals — high- availability, scale, compliance or cost-control — CK provides the Turnkey engineering service - from design to build - with trained, certified architects</li>
 	<li>DataCenter-on-cloud presentation</li>
