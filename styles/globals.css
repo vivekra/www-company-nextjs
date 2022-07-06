@@ -371,6 +371,7 @@ p.smaller-txt {
 
 .grid-wrapper {
   padding-top: 4rem;
+  text-align: center;
 }
 
 .grid-wrapper .custom-btn {
@@ -891,7 +892,7 @@ textarea+.err-msg {
 
 .home-banner {
   height: 636px;
-  padding-top: 8.8rem;
+  padding-top: 0.8rem;
 }
 
 .breadcrumb-wrapper {
@@ -1146,6 +1147,7 @@ textarea+.err-msg {
   box-shadow: 0 5px 50px rgba(156, 185, 226, 0.2);
   border-radius: 6px;
   padding-bottom: 5.5rem;
+  margin-top: 43px;
 }
 
 .facilities {
@@ -2938,3 +2940,4 @@ flex-wrap: wrap;
 /* -- IE hacks -- */
 
 /*# sourceMappingURL=../maps/main.css.map */
+
