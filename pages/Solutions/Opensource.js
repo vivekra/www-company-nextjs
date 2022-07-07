@@ -13,7 +13,7 @@ function Opensource() {
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><a href="/">Home</a></li>
+                    <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
                     <li className="breadcrumb-item active" aria-current="page">Open Source</li>
                 </ol>
             </div>

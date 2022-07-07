@@ -19,7 +19,7 @@ function Banner() {
 
             <div className="col-lg-6">
                 <div className="img-container text-center text-lg-right">
-                    <Image src={"/assets/images/banner/home1.svg"} height={300} width={400} className={"img-fluid"}/>
+                    <Image src="/assets/images/banner/home1.svg" alt="Home banner image" height={300} width={400} className={"img-fluid"}/>
                 </div>
             </div>
         </div>
