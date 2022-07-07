@@ -762,14 +762,14 @@ textarea+.err-msg {
 .navbar-nav li.has-dropdown>a {
   position: relative;
 }
-
+/* 
 .navbar-nav li.has-dropdown>a::after {
   content: "\f078";
   font-family: "Font Awesome 5 Pro";
   font-size: 1.2rem;
   font-weight: 300;
   margin-left: .5rem;
-}
+} */
 
 @media (min-width: 992px) {
   .navbar-nav li.has-dropdown:hover .submenu {
@@ -2221,7 +2221,7 @@ figure img {
 
 .nav-tabs .nav-link::after {
   content: " ";
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   left: 0;
   width: 0;

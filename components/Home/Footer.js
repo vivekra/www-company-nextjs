@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 function Footer() {
   return (
+    
     <footer className="page-footer dark-footer-bg">
     <div className="container">
         <div className="row">
@@ -46,13 +47,13 @@ function Footer() {
                 <div className="footer-widget">
                     <h5 className="footer-nav-title">Services</h5>
                     <ul className="footer-nav dynamic-nav">
-                        <li><Link href="/Service/Cloudservices"><a>Cloud Services</a></Link></li>
+                        <li><Link href="/Services/Cloudservices"><a>Cloud Services</a></Link></li>
                         
-                        <li><Link href="/Service/Infrastructure"><a>Infrastructure management</a></Link></li>
-                        <li><Link href="/Service/Application"><a>Application Management</a></Link></li>
+                        <li><Link href="/Services/Infrastructure"><a>Infrastructure management</a></Link></li>
+                        <li><Link href="/Services/Application"><a>Application Management</a></Link></li>
                         
-                        <li><Link href="//Service/Security"><a>Security Audit</a></Link></li>
-                        <li><Link href="/Service/Socialmedia"><a>Social Media Marketing</a></Link></li>
+                        <li><Link href="//Services/Security"><a>Security Audit</a></Link></li>
+                        <li><Link href="/Services/Socialmedia"><a>Social Media Marketing</a></Link></li>
                     </ul>
                 </div>
             </div>
@@ -75,9 +76,9 @@ function Footer() {
                 <div className="footer-widget">
                     <h5 className="footer-nav-title">Solutions</h5>
                     <ul className="footer-nav dynamic-nav">
-                        <li><Link href="staffing-solutions.php"><a>Staffing Solutions</a></Link></li>
+                        <li><Link href="staffing-solutions"><a>Staffing Solutions</a></Link></li>
                         
-                        <li><Link href="opensource.php"><a>Open Source Solution</a></Link></li>
+                        <li><Link href="Solutions/opensource"><a>Open Source Solution</a></Link></li>
                        
                         <li><Link href="https://dqserv.com"><a>Restaurant POS</a></Link></li>
                         
