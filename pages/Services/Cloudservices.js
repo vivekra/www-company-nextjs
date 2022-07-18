@@ -9,7 +9,7 @@ function Cloudservices() {
  
         <Header />
 
-            <div className="banner d-flex align-items-center light-grey-bg">
+             <div className="banner d-flex align-items-center light-grey-bg">
  
                 <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
                     <div className="container">
@@ -28,7 +28,7 @@ function Cloudservices() {
                             <p className="larger-txt">You know what your business needs. We know how to support it with Technology. We assure you that our services will provide a secure, robust and uninterrupted IT service. We focus on design, architecture, migrations, deployment and managing business continuity for our customers. As a Certified Cloud MSP,
                                                 DigitalQ manages the Digital Assets for over 50 large enterprise customers across domains.</p>
 
-                        </div>
+                        </div> 
 
                         <div className="col-lg-6">
                             <div className="img-container text-center text-lg-right">
@@ -116,6 +116,7 @@ function Cloudservices() {
             
         
             <Footer />
+     
     </div>
   )
 }

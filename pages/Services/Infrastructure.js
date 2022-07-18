@@ -7,7 +7,7 @@ function Infrastructure() {
   return (
     <div>
           <Header/>
-    <div className="banner d-flex align-items-center light-grey-bg">
+     <div className="banner d-flex align-items-center light-grey-bg">
 
          <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
@@ -131,7 +131,8 @@ s/chedule a free pre-assessment, please write to us at cloudcas@digitalq.co.in</
     </div>
     
    <Footer />
-    </div>
+    </div> 
+    
   )
 }
 

@@ -371,7 +371,6 @@ p.smaller-txt {
 
 .grid-wrapper {
   padding-top: 4rem;
-  text-align: center;
 }
 
 .grid-wrapper .custom-btn {
@@ -760,21 +759,25 @@ textarea+.err-msg {
 }
 
 .navbar-nav li.has-dropdown>a {
-  position: relative;
+  position: absolute;
 }
-/* 
+
 .navbar-nav li.has-dropdown>a::after {
   content: "\f078";
   font-family: "Font Awesome 5 Pro";
   font-size: 1.2rem;
   font-weight: 300;
   margin-left: .5rem;
-} */
+}
+.navbar-nav li.has-dropdown:hover .submenu{
+ visibility: visible;
 
+}
 @media (min-width: 992px) {
   .navbar-nav li.has-dropdown:hover .submenu {
     visibility: visible;
     opacity: 1;
+   z-index: 1;
   }
 }
 
@@ -791,7 +794,7 @@ textarea+.err-msg {
   padding: 1.5rem 0;
   border: 1px solid #e6f2ff;
   min-width: 30rem;
-  visibility: hidden;
+  visibility: visible;
   opacity: 0;
 }
 
@@ -827,18 +830,18 @@ textarea+.err-msg {
 
 @media (max-width: 992px) {
   .navbar-nav .submenu {
-    position: static;
+    position: absolute;
     visibility: visible;
     opacity: 1;
   }
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
   margin: 0;
   padding: 0;
   border: none;
   outline: 0;
-}
+} */
 
 .custom-toggler-icon {
   display: block;
@@ -892,11 +895,11 @@ textarea+.err-msg {
 
 .home-banner {
   height: 636px;
-  padding-top: 0.8rem;
+  padding-top: 8.8rem;
 }
 
 .breadcrumb-wrapper {
-  position: absolute;
+  position: relative;
   top: 8.7rem;
   left: 0;
   width: 100%;
@@ -947,6 +950,7 @@ textarea+.err-msg {
   font-size: 1.2rem;
   margin: 0 .5rem;
   color: currentColor;
+  position: relative;
 }
 
 /* -- Widgets css -- */
@@ -1147,7 +1151,6 @@ textarea+.err-msg {
   box-shadow: 0 5px 50px rgba(156, 185, 226, 0.2);
   border-radius: 6px;
   padding-bottom: 5.5rem;
-  margin-top: 43px;
 }
 
 .facilities {
@@ -2221,7 +2224,7 @@ figure img {
 
 .nav-tabs .nav-link::after {
   content: " ";
-  /* position: absolute; */
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 0;
@@ -2941,3 +2944,24 @@ flex-wrap: wrap;
 
 /*# sourceMappingURL=../maps/main.css.map */
 
+.btn:not(:disabled):not(.disabled){
+  cursor: pointer;
+  padding-left: 129px;
+  font-size:medium
+}
+
+@media(max-width:991px){
+  .navbar-nav li{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+
+.navbar-nav .dropdown-menu{
+  position: static;
+  float: none;
+  padding-left: 28px;
+  border: none;
+}

@@ -7,7 +7,7 @@ function Security() {
   return (
     <div>
        <Header/>
-    <div className="banner d-flex align-items-center light-grey-bg">
+     <div className="banner d-flex align-items-center light-grey-bg">
 
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
@@ -114,7 +114,8 @@ To supplement the network security audit DigitalQ will review and /or draft comp
   
     </div>
     <Footer/>
-    </div>
+    </div> 
+    
 )
 }
 

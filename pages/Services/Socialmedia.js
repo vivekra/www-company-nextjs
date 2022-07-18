@@ -7,7 +7,7 @@ function Socialmedia() {
   return (
     <div>
         <Header/>
- <div className="banner d-flex align-items-center light-grey-bg">
+  <div className="banner d-flex align-items-center light-grey-bg">
 
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
@@ -132,7 +132,7 @@ PPC Campaigning is an effective tool of Internet Marketing where the webmasters 
         </div>
     </div>
 
-   <Footer/>
+   <Footer/> 
     </div>
   )
 }

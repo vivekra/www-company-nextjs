@@ -9,14 +9,14 @@ function Application() {
      <Header /> 
     <div className="banner d-flex align-items-center light-grey-bg">
 
-        <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
+         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
                 <ol className="breadcrumb">
                     <li className="breadcrumb-item"><Link href="/">Home</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">Application Management</li>
                 </ol>
             </div>
-        </nav>
+        </nav> 
 
 
         <div className="container">
