@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap/dist/css/bootstrap.css'
 import '../public/assets/css/vendor/bootstrap.min.css'
 import '../public/assets/css/vendor/magnific-popup.css'
 import '../public/assets/css/vendor/owl.carousel.min.css'
