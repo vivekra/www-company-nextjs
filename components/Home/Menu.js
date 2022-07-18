@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 function Menu() {
   return (
-    <div>
+    <div className='mobile-menu-div'>
          <button className="navbar-toggler change" type="button" data-toggle="collapse" data-target="#custom-navbar"
                 aria-controls="custom-navbar"aria-expanded="true" aria-label="Toggle navigation" onClick={()=>setToggle(!toggle)}>
                 <span className="custom-toggler-icon"></span>
@@ -11,7 +11,7 @@ function Menu() {
             </button>
 
 
-            <div className="navbar-collapse collapse show" id="custom-navbar">
+            <div  id="custom-navbar">
                 <ul className="navbar-nav ml-auto align-items-center ">
                 
                     
