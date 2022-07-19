@@ -13,7 +13,7 @@ function About() {
         <nav className="breadcrumb-wrapper" aria-label="breadcrumb">
             <div className="container">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><Link href="http://localhost:3000/">Home</Link></li>
+                    <li className="breadcrumb-item"><Link href="/">Home</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">About Us</li>
                 </ol>
             </div>
