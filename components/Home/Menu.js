@@ -11,7 +11,7 @@ function Menu() {
             </button>
 
 
-            <div  id="custom-navbar">
+            <div  id="menu-navbar">
                 <ul className="navbar-nav ml-auto align-items-center ">
                 
                     

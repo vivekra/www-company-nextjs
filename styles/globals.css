@@ -2965,6 +2965,11 @@ flex-wrap: wrap;
   padding-left: 28px;
   border: none;
 }
-#custom-navbar{
+/* .menu-navbar{
   margin-top: 20%;
+} */
+ ::after, ::before {
+  box-sizing: border-box;
+  margin-top: 45px;
 }
+
