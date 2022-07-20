@@ -3,19 +3,9 @@ import Link from 'next/link'
 function Menu() {
   return (
     <div className='mobile-menu-div'>
-         <button className="navbar-toggler change" type="button" data-toggle="collapse" data-target="#custom-navbar"
-                aria-controls="custom-navbar"aria-expanded="true" aria-label="Toggle navigation" onClick={()=>setToggle(!toggle)}>
-                <span className="custom-toggler-icon"></span>
-                <span className="custom-toggler-icon"></span>
-                <span className="custom-toggler-icon"></span>
-            </button>
-
-
+        
             <div  id="menu-navbar">
-                <ul className="navbar-nav ml-auto align-items-center ">
-                
-                    
-                    
+                <ul className="navbar-nav ml-auto align-items-center ">            
                     <li className="dropdown">
                       <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                        Services

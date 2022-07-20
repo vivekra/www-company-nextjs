@@ -12,14 +12,20 @@ function Header() {
                 <Image src="/assets/images/dq-logo.svg" alt="DigitalQ logo" width={175} height={75}/>
             </Link>
 
-            {toggle  && <Menu />}
+            {toggle && <Menu />}
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#custom-navbar"
-                aria-controls="custom-navbar" aria-expanded="false" aria-label="Toggle navigation" onClick={()=>setToggle(!toggle)}>
+          {toggle ?  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#custom-navbar"
+                aria-controls="custom-navbar" aria-expanded="true" aria-label="Toggle navigation" onClick={()=>setToggle(!toggle)}>
                 <span className="custom-toggler-icon"></span>
                 <span className="custom-toggler-icon"></span>
                 <span className="custom-toggler-icon"></span>
-            </button>
+            </button>:
+             <button className="navbar-toggler change" type="button" data-toggle="collapse" data-target="#custom-navbar"
+                aria-controls="custom-navbar"aria-expanded="false" aria-label="Toggle navigation" onClick={()=>setToggle(!toggle)} >
+                <span className="custom-toggler-icon"></span>
+                <span className="custom-toggler-icon"></span>
+                <span className="custom-toggler-icon"></span>
+            </button> }
 
 
             <div className="collapse navbar-collapse" id="custom-navbar">
