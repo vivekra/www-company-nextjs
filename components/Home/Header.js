@@ -14,7 +14,7 @@ function Header() {
 
             {toggle && <Menu />}
 
-          {toggle ?  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#custom-navbar"
+          {!toggle ?  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#custom-navbar"
                 aria-controls="custom-navbar" aria-expanded="true" aria-label="Toggle navigation" onClick={()=>setToggle(!toggle)}>
                 <span className="custom-toggler-icon"></span>
                 <span className="custom-toggler-icon"></span>
